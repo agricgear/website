@@ -2,14 +2,14 @@
 <!-- Begin: page-header -->
 <header>
   <div class="wrapper">
-    <h1 class="logo"><a href="home-gps.html">Agroguía</a></h1>
+    <h1 class="logo"><a href="/">Agroguía</a></h1>
     <nav>
-    	<ul>
-     		<li class="nav-item gps-guided"><a href="home-gps.html"><span>Guiado GPS</span></a></li>
-    		<li class="nav-item online-works active"><a href="home-pc.html"><span>Trabajos on-line</span></a></li>
-    		<li class="buy-item"><a href="buy.html" class="button">Comprar</a> <span class="phone">91 677 74 72</span>
-    		</li>
-    	</ul>
+      <ul>
+        <li class="nav-item gps-guided"><a href="/"><span>Guiado GPS</span></a></li>
+        <li class="nav-item online-works active"><a href="{% url home-pc %}"><span>Trabajos on-line</span></a></li>
+        <li class="buy-item"><a href="{% url home-buy %}" class="button">Comprar</a> <span class="phone">91 677 74 72</span>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
