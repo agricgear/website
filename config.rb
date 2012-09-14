@@ -7,9 +7,9 @@
 http_path = "/"
 project_path = "."
 
-css_dir      = "output/stylesheets/"
-sass_dir     = "content/stylesheets/"
-images_dir   = "output/images/"
+css_dir      = "templates/stylesheets/"
+sass_dir     = "templates/stylesheets/"
+images_dir   = "templates/images/"
 output_style = :compact
 
 sass_options = {
