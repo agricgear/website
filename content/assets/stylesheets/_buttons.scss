@@ -1,0 +1,111 @@
+
+/**
+ * Buttons
+ */
+
+.button {
+
+	display: inline-block;
+	@extend .font-proxima-nova-bold;
+	@include border-radius(3px);
+	border: none;
+	color: #ffffff;
+	font-size: 21px;
+	line-height:41px;
+	padding:0 15px;
+	background-color: #57b900;
+	@include background-image(linear-gradient(top, #6CCC00, #52AC00));
+
+	&:hover{
+		color: #ffffff;
+		@include background-image(linear-gradient(top, #65CD02, #418401));
+	}
+	&:active{
+		color: #ffffff;
+		@include box-shadow(inset 0px 0px 3px 2px rgba(0,0,0,0.15));
+	}
+
+	&.facebook {
+		font-size: 17px;
+		line-height:39px;
+		padding-left:40px;
+		background: #3B5998 url(../images/style/icon-facebook.png) 12px 50% no-repeat;
+		&:hover{ color: #ffffff; background-color:#4D76C8;}
+		&:active{ color: #ffffff; background-color:#273C69;}
+	}
+	&.twitter {
+		font-size: 17px;
+		line-height:39px;
+		padding-left:40px;
+		background: #3D8FCA url(../images/style/icon-facebook.png) 12px 50% no-repeat;
+		&:hover{ color: #ffffff; background-color:#45A7EC;}
+		&:active{ color: #ffffff; background-color:#2F72A1;}
+	}
+
+
+}
+
+.big-button {
+
+	display: inline-block;
+	@extend .font-proxima-nova-bold;
+	@include border-radius(3px);
+	@include box-shadow(0px 0px 0px 5px rgba(0,0,0,0.30));
+	border: none;
+	color: #ffffff;
+	padding: 1px 0;
+
+	background-color: #57b900;
+	@include background-image(linear-gradient(top, #61CF00, #4CA300));
+
+	&:hover{
+		color: #ffffff;
+		@include background-image(linear-gradient(top, #65CD02, #418401));
+	}
+	&:active{
+		color: #ffffff;
+		@include box-shadow(inset 0px 0px 3px 2px rgba(0,0,0,0.40), 0px 0px 0px 5px rgba(0,0,0,0.30));
+	}
+
+	.call-to-action {
+		float:right;
+		display: block;
+		font-size: 53px;
+		letter-spacing: -0.04em;
+		line-height: 80px;
+		padding: 0 20px;
+	}
+}
+
+
+.big-price-button {
+
+	@extend .big-button;
+	.price-and-tax {
+		display: block;
+		float:left;
+		padding: 10px 10px 10px 20px;
+		border-right: 1px solid #438F00;
+		.price {
+			display: block;
+			font-size: 47px;
+			letter-spacing: -0.04em;
+			line-height: 43px;
+			sup {
+				vertical-align: baseline;
+				position: relative;
+				top: -16px;
+				font-size: 19px;
+				line-height: 19px;
+			}
+		}
+		.taxes{
+			display: block;
+			color: #397900;
+			font-size: 13px;
+		}
+	}
+	.call-to-action {
+		border-left:1px solid #6BC800;
+	}
+}

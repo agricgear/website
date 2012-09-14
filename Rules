@@ -1,0 +1,77 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/” for the file
+#   “content/about.html”). To select all children, grandchildren, … of an
+#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
+#   because “*” matches zero or more characters.
+
+#
+# Sass&Compass settings
+#
+require 'compass'
+Compass.add_project_configuration 'config.rb'
+
+#
+# Compile section
+#
+
+compile '/assets/stylesheets/_*' do
+  # ignore _files
+end
+
+compile '/assets/stylesheets/*' do
+  filter :sass, Compass.sass_engine_options
+end
+
+compile '/assets/images/*' do
+  # don’t filter or layout
+end
+
+compile '/assets/javascripts/*' do
+  # don’t filter or layout
+end
+
+compile '/assets/fonts/*' do
+  # ignore fonts
+end
+
+compile '*' do
+  layout item[:layout]? item[:layout] : 'default'
+  filter :erb
+end
+
+
+#
+# Route section
+#
+
+route '/assets/stylesheets/_*' do
+  # ignore _files
+end
+
+route '/assets/stylesheets/*' do
+  item.identifier.chop + '.css'
+end
+
+route '/assets/images/*' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/assets/javascripts/*' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/assets/fonts/*' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/*' do
+  item.identifier.chop + '.html'
+end
+
+layout '*', :erb

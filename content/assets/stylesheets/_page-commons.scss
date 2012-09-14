@@ -1,0 +1,157 @@
+/**
+ * Page header
+ */
+header {
+
+	.logo {
+		float: left;
+		padding: 41px 0;
+		a {
+			display: block;
+			width: 179px;
+			height: 78px;
+			background: url(../images/style/logo-agroguia.png) 0 0 no-repeat;
+			text-indent:-20000px;
+		}
+	}
+
+	nav {
+		float: right;
+		li {
+			float: left;
+			width:160px;
+			height:160px;
+			font-family: 'proxima-nova', sans-serif;
+			font-size: 15px;
+			font-weight: 600;
+			color: #666666;
+			background-color: transparent;
+			background-image: url(../images/style/topmenu-divider.png);
+			background-position: 0 50%;
+			background-repeat: no-repeat;
+			text-align: center;
+
+			&.nav-item a {
+				display: block;
+				height: 141px;
+				color:#333333;
+				span {
+					display: inline-block;
+					margin-top: 103px;
+				}
+			}
+
+			&.buy-item {
+				padding: 50px 0 0 20px;
+				height: 110px;
+				.phone {
+					display: inline-block;
+					font-family: 'proxima-nova', sans-serif;
+					font-size: 13px;
+					font-weight: 700;
+					color: #499E00;
+					background: transparent url(../images/style/icon-phonemini.png) 0 50% no-repeat;
+					padding-left: 12px;
+					margin-top: 12px;
+				}
+			}
+
+			&.gps-guided a { background: transparent url(../images/style/icon-gpsguided.png) 50% 50% no-repeat;}
+			&.online-works a { background: transparent url(../images/style/icon-onlineworks.png) 50% 50% no-repeat;}
+
+			&.nav-item.active,
+			&.nav-item:hover {
+				background-color: #f6f6f6;
+				@include background-image(url(../images/style/topmenu-divider.png),linear-gradient(top, #ffffff, #f6f6f6, #ffffff));
+			}
+		}
+	}
+}
+
+
+/**
+ * Call us block
+ */
+.call-us {
+
+	@extend .font-proxima-nova-bold;
+
+	.wrapper {
+
+		border: 1px solid #e6e6e6;
+		background-color: #fbfbfb;
+		@include border-radius(3px);
+		@include box-shadow(inset 0px 0px 0px 5px #fff);
+
+		p {
+			@extend .clearfix;
+			color: #333333;
+			font-size:41px;
+			line-height: 47px;
+			letter-spacing: -0.04em;
+			padding: 34px;
+
+			span.phone {
+				display: block;
+				float: right;
+				font-size: 35px;
+				letter-spacing: 0px;
+				padding-left: 65px;
+				color: #59BD00;
+				background: url(../images/style/icon-phonebubble.png) 0 50% no-repeat;
+			}
+		}
+	}
+}
+
+
+/**
+ * Page footer
+ */
+footer {
+
+	margin: 60px 0 0 0;
+	padding: 56px 0;
+	border-top:1px solid #e5e5e5;
+
+	nav {
+
+		float: left;
+		font-size: 13px;
+		color:#59B303;
+
+		p {
+			color: #999999;
+			margin: 4px 0 0 0;
+		}
+
+		li {
+			float: left;
+
+			a {
+				margin: 0 10px;
+			}
+
+			&:after {
+				content: "·";
+			}
+
+			&:first-child a {
+				margin-left: 0;
+			}
+			&:last-child:after {
+				content: "";
+			}
+		}
+	}
+
+	.social-buttons {
+
+		float: right;
+
+		li {
+			float: left;
+			margin: 0 0 0 7px;
+		}
+	}
+}

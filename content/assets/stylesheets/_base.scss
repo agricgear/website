@@ -1,0 +1,55 @@
+/**
+ * Base styles
+ */
+
+// IE7 Hacks
+.lt-ie8 * { zoom:1;}
+
+// Default font and background
+html {
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+	font-family: Helvetica, sans-serif;
+	background-color: #ffffff;
+	color: #999999;
+}
+
+// Clearfix class for extend
+.clearfix {
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  * html & { height: 1px }
+}
+
+// Wrapper for each page centered blocks
+.wrapper {
+	@extend .clearfix;
+	width: 910px;
+	margin: 0 auto;
+}
+
+// Default style for links
+a {
+	color:#59B303;
+	text-decoration: none;
+	&:hover{ color:#468B02; }
+}
+
+strong {
+	font-weight: 700;
+}
+
+// Layout of 3 cols for extend
+.layout-3-cols {
+
+	@extend .clearfix;
+	.item {
+		width:33%;
+		float: left;
+	}
+}
