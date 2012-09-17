@@ -62,14 +62,18 @@ $experimental-support-for-khtml : true !default;
  */
 .content-with-aside {
 
-	position: relative;
-	padding: 0 340px 0 0;
+	@extend .clearfix;
 	margin: 0 0 100px 0;
 
+	.content-wrapper {
+		float: left;
+		width: 570px;
+
+	}
+
 	aside {
-		position: absolute;
-		right:0;
-		top:20px;
+		float: right;
+		margin-top: 20px;
 		width: 300px;
 
 		nav {
@@ -115,7 +119,7 @@ $experimental-support-for-khtml : true !default;
 			font-size:25px;
 			line-height: 26px;
 			margin: 22px 30px 11px 30px;
-
+			a { color:#333; }
 		}
 		p {
 			margin: 0 35px;
@@ -392,7 +396,7 @@ $experimental-support-for-khtml : true !default;
 	}
 	.schedule {
 		color: #cccccc;
-		margin: 76px 0 0 0;
+		margin: 60px 0 0 0;
 	}
 
 	.field {
