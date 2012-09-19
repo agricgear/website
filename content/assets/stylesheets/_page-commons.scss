@@ -91,6 +91,11 @@ header {
 			letter-spacing: -0.04em;
 			padding: 34px;
 
+			span.claim {
+				display: block;
+				float: left;
+			}
+
 			span.phone {
 				display: block;
 				float: right;
