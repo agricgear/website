@@ -37,7 +37,7 @@
 		font-size: 17px;
 		line-height:39px;
 		padding-left:40px;
-		background: #3D8FCA url(../images/style/icon-facebook.png) 12px 50% no-repeat;
+		background: #3D8FCA url(../images/style/icon-twitter.png) 12px 50% no-repeat;
 		&:hover{ color: #ffffff; background-color:#45A7EC;}
 		&:active{ color: #ffffff; background-color:#2F72A1;}
 	}
@@ -68,7 +68,7 @@
 	}
 
 	.call-to-action {
-		float:right;
+		float:left;
 		display: block;
 		font-size: 53px;
 		letter-spacing: -0.04em;
