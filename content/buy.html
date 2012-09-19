@@ -3,84 +3,99 @@ title: "Agroguía"
 ---
 
 <section class="main-section">
-	<div class="wrapper">
+  <div class="wrapper">
 
-		<div class="buy-form">
+    <div class="buy-form">
 
-			<h2>Compra ahora tu kit Agroguía por 999€ <em>(IVA NO INCLUIDO)</em></h2>
+      <h2>Compra ahora tu kit Agroguía por 999€ <em>(IVA NO INCLUIDO)</em></h2>
 
-			<form>
+      <form method="POST" action="">
 
-				<div class="left-block">
-					<h3>Llámanos o escríbenos un e-mail</h3>
-					<p>Y te informaremos de todo lo necesario para realizar tu compra.</p>
+        <div class="left-block">
+          <h3>Llámanos o escríbenos un e-mail</h3>
+          <p>Y te informaremos de todo lo necesario para realizar tu compra.</p>
 
-					<p class="phone">91 677 74 72</p>
-					<p class="email"><a href="emailto:">info@agroguia.es</a></p>
-					<p class="schedule">Disponibles en horario comercial</p>
+          <p class="phone">91 677 74 72</p>
+          <p class="email"><a href="emailto:">info@agroguia.es</a></p>
+          <p class="schedule">Disponibles en horario comercial</p>
 
-				</div>
+        </div>
 
-				<div class="right-block">
-					<h3>Deja que nosotros te llamemos</h3>
+        <div class="right-block">
+          {% if ok %}
+            {% with form.cleaned_data as data %}
+            <h3>Gracias {{data.name}}</h3>
+            <p>Laura te llamará en breve, normalmente te llamamos en el mismo día.</p>
+            <p>Por favor comprueba que 
+              {% if data.phone %}
+              tu teléfono es <strong>{{data.phone}}</strong>
+              {% else  %}
+              tu email es <strong>{{data.email}}</strong>
+              {% endif %}
+              . Si no lo es <a href="">vuelve a enviarnoslo</a>
+            {% endwith %}
+          {% else %}
+            <h3>Deja que nosotros te llamemos</h3>
+            {% if form.errors %}
+            <p>Debes indicar tu teléfono o tu email.</p>
 
-					<p>Déjanos tus datos a continuación y nosotros te llamaremos para informarte.</p>
+            {% else %}
+            <p>Déjanos tus datos a continuación y nosotros te llamaremos para informarte.</p>
+            {% endif %}
+            {% csrf_token %}
 
+            {% for f in form %}
+            <div class="field">
+              <label for="yourname">{{f.label}}</label>
+              {{f}}
+            </div>
+            {% endfor %}
+            <div class="field">
+              <button class="button">Enviar</button>
+            </div>
+          {% endif %}
 
-					<div class="field">
-						<label for="yourname">Tu nombre</label> <input id="yourname" type="text" />
-					</div>
-					<div class="field">
-						<label for="youremail">Tu e-mail</label> <input id="youremail" type="text" />
-					</div>
-					<div class="field">
-						<label for="yourphone">Tu teléfono</label> <input id="yourphone" type="text" />
-					</div>
-					<div class="field">
-						<button class="button">Enviar</button>
-					</div>
+        </div>
 
-				</div>
+      </form>
 
-			</form>
+    </div>
 
-		</div>
+    <div class="faq">
 
-		<div class="faq">
+      <h2>Algunas preguntas frecuentes</h2>
 
-			<h2>Algunas preguntas frecuentes</h2>
+      <div class="item">
+        <h3>¿Cómo puedo pagar?</h3>
+        <p>Aceptamos pagos por transferencia bancária o contrareembolso.</p>
+      </div>
 
-			<div class="item">
-				<h3>¿Cómo puedo pagar?</h3>
-				<p>Aceptamos pagos por transferencia bancária o contrareembolso.</p>
-			</div>
+      <div class="item">
+        <h3>¿Qué incluye el kit?</h3>
+        <p>Recibirás todo lo necesario para empezar a trabajar. No hay que pagar nada más, ni cuotas, soporte, actualizaciones...</p>
+      </div>
 
-			<div class="item">
-				<h3>¿Qué incluye el kit?</h3>
-				<p>Recibirás todo lo necesario para empezar a trabajar. No hay que pagar nada más, ni cuotas, soporte, actualizaciones...</p>
-			</div>
+      <div class="item">
+        <h3>¿Cuanto tarda en llegar?</h3>
+        <p>Depende del modo de pago, normalmente <strong>dos días laborables</strong>, aunque también hacemos envío urgente si lo necesitas.</p>
+      </div>
 
-			<div class="item">
-				<h3>¿Cuanto tarda en llegar?</h3>
-				<p>Depende del modo de pago, normalmente <strong>dos días laborables</strong>, aunque también hacemos envío urgente si lo necesitas.</p>
-			</div>
+      <div class="item">
+        <h3>¿Hay piezas auxiliares?</h3>
+        <p>Si, puedes comprar solo un GPS, un soporte, un cable de alimentación... etc.</p>
+      </div>
 
-			<div class="item">
-				<h3>¿Hay piezas auxiliares?</h3>
-				<p>Si, puedes comprar solo un GPS, un soporte, un cable de alimentación... etc.</p>
-			</div>
+      <div class="item">
+        <h3>¿Incluye garantía?</h3>
+        <p>Todos los componentes tienen 1 año de garantía, nosotros llevamos todo el trámite si algo va mal.</p>
+      </div>
 
-			<div class="item">
-				<h3>¿Incluye garantía?</h3>
-				<p>Todos los componentes tienen 1 año de garantía, nosotros llevamos todo el trámite si algo va mal.</p>
-			</div>
+      <div class="item">
+        <h3>¿Y si necesito ayuda?</h3>
+        <p>Además, nuestro servicio de soporte solucionará tus problemas con el sistema, dudas, consultas en menos de 24 horas.</p>
+      </div>
+    </div>
 
-			<div class="item">
-				<h3>¿Y si necesito ayuda?</h3>
-				<p>Además, nuestro servicio de soporte solucionará tus problemas con el sistema, dudas, consultas en menos de 24 horas.</p>
-			</div>
-		</div>
-
-	</div>
+  </div>
 </section>
 
