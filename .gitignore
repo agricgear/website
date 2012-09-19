@@ -1,7 +1,6 @@
 env
 *.pyc
 *.swp
-templates
 build
 tmp
 .sass-cache
