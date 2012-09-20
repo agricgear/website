@@ -1,40 +1,8 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]> <!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<title>Agroguía</title>
+{% extends "_base.html" %}
+{% load flatpages %}
 
-<!-- Meta -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="utf-8">
 
-<!-- Stylesheets -->
-<link href="assets/stylesheets/style.css" type="text/css" rel="stylesheet" />
-
-<!-- Scripts -->
-<script src="assets/javascripts/libs/modernizr-2.6.1.min.js"></script>
-
-</head>
-<body class="">
-
-<!-- Begin: page-header -->
-<header>
-  <div class="wrapper">
-    <h1 class="logo"><a href="/">Agroguía</a></h1>
-    <nav>
-      <ul>
-        <li class="nav-item gps-guided"><a href="/"><span>Guiado GPS</span></a></li>
-        <li class="nav-item online-works active"><a href="{% url home-pc %}"><span>Trabajos on-line</span></a></li>
-        <li class="buy-item"><a href="{% url home-buy %}" class="button">Comprar</a> <span class="phone">91 677 74 72</span>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<!-- End: page-header  -->
- 
+{% block content %}
 
 <section class="main-section">
   <div class="wrapper">
@@ -134,28 +102,6 @@
 </section>
 
 
-<!-- Begin: page-footer -->
-<footer>
-	<div class="wrapper">
-		<nav>
-			<p>Agroguía 2012.</p>
-			<ul>
-				<li><a href="about.html">Sobre nosotros</a></li>
-				<li><a href="#">Características</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="buy.html">Contacto</a></li>
-			</ul>
-		</nav>
-		<div class="social-buttons">
-			<ul>
-				<li><a href="#" class="button facebook">visítanos en facebook</a></li>
-				<li><a href="#" class="button twitter">síguenos en twitter</a></li>
-			</ul>
-		</div>
-	</div>
-</footer>
-<!-- End: page-footer  -->
+{% endblock %}
 
 
-</body>
-</html>

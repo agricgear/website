@@ -5,10 +5,11 @@ from django.utils.translation import ugettext_lazy as _
 from views import buy
 
 urlpatterns = patterns('',
-    url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html'}, name='home'),
+    url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html', 'extra_context': {'section': 'home'}}, name='home'),
     url(r'^gps-agricola$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html'}, name='home'),
     url(r'^guiado-gps$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html'}, name='home'),
-    url(_(r'^agroguia-pc'), 'django.views.generic.simple.direct_to_template', {'template': 'home-pc.html'},  name='home-pc'),
+    url(_(r'^agroguia-pc'), 'django.views.generic.simple.direct_to_template', {'template': 'home-pc.html', 'extra_context': {'section': 'online'}},  name='home-pc'),
+    url(_(r'^video'), 'django.views.generic.simple.direct_to_template', {'template': 'content-video.html'},  name='video'),
     url(_(r'^comprar-guiado-gps'), buy,  name='home-buy'),
     url(_(r'^nosotros'), 'django.views.generic.simple.direct_to_template', {'template': 'about.html'},  name='about'),
 )

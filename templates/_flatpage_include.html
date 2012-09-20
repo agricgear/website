@@ -1,0 +1,29 @@
+{% load flatpages %}
+
+<section class="main-section">
+  <div class="wrapper">
+    <div class="content-with-aside">
+      <div class="content-wrapper">
+        <h2>{{ flatpage.title }}</h2>
+        {{ flatpage.content }}
+
+      </div>
+      <aside>
+        <nav>
+          <h4>Guiado GPS</h4>
+          <ul>
+            {% get_flatpages as flatpages %}
+            {% for page in flatpages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <h4>Trabajos on-line</h4>
+          <ul>
+            <li><a href="#">Obtén sencillos informes</a></li>
+            <li><a href="#">Recibe tus trabajos por email</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </div>
+</section>
