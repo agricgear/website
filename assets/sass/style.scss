@@ -134,6 +134,17 @@ $experimental-support-for-khtml : true !default;
 
 
 /**
+ * flatpage 
+ */
+
+.flatpage {
+  img {
+    padding: 1px;
+    border: 1px solid #D4CDC1;
+  }
+}
+
+/**
  * Team block
  */
 .team {
