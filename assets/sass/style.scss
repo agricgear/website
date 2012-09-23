@@ -73,7 +73,7 @@ $experimental-support-for-khtml : true !default;
 
   aside {
     float: right;
-    margin-top: 20px;
+    margin-top: 24px;
     width: 300px;
 
     nav {
@@ -87,7 +87,7 @@ $experimental-support-for-khtml : true !default;
         margin: 0 0 2px 0;
       }
       ul {
-        margin: 0 0 13px 0;
+        margin: 0 0 20px 0;
       }
       li {
         font-size: 17px;
@@ -96,7 +96,8 @@ $experimental-support-for-khtml : true !default;
         padding: 14px 0;
         &:last-child { border:0 none; }
         a.selected {
-          font-weight: bold;
+          font-weight: regular;
+          color: #999999;
         }
       }
     }
