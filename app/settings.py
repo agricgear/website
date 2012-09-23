@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.flatpages',
+    'django.contrib.sitemaps',
 
 
     # Uncomment the next line to enable the admin:
