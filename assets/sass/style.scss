@@ -99,12 +99,14 @@ $experimental-support-for-khtml : true !default;
       }
       ul {
         margin: 0 0 20px 0;
+        list-style-type: none;
       }
       li {
         font-size: 17px;
         color: #999999;
         border-bottom: 1px solid #cccccc;
         padding: 14px 0;
+        margin: 0;
         &:last-child { border:0 none; }
         a.selected {
           font-weight: regular;
