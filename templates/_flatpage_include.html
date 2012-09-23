@@ -14,14 +14,15 @@
           <ul>
             {% get_flatpages as flatpages %}
             {% for page in flatpages %}
-            {{request.get_full_path}}
-            <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+              <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
           <h4>Trabajos on-line</h4>
           <ul>
-            <li><a href="/es/pc/recibe-informes">Recibe tus trabajos por email</a></li>
-            <li><a href="/es/pc/visualizar-informes">Obtén sencillos informes</a></li>            
+            {% get_flatpages '/es/pc/' as pc_pages%}
+            {% for page in pc_pages%}
+            <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
           </ul>
         </nav>
       </aside>
