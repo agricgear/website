@@ -13,13 +13,15 @@
           <h4>Guiado GPS</h4>
           <ul>
             {% get_flatpages as flatpages %}
+            {% get_flatpages '/es/pc/' as pc_pages%}
             {% for page in flatpages %}
-              <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+              {% if page not in pc_pages %}
+                <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+              {% endif %}
             {% endfor %}
           </ul>
           <h4>Trabajos on-line</h4>
           <ul>
-            {% get_flatpages '/es/pc/' as pc_pages%}
             {% for page in pc_pages%}
             <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
