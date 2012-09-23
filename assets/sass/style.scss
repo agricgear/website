@@ -308,6 +308,7 @@ $experimental-support-for-khtml : true !default;
     }
     ul {
       margin:0 0 17px -8px;
+      list-style-type: none;
       li {
         background: url(../images/style/bullet.png) 0 50% no-repeat;
         padding-left: 8px;
