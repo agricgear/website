@@ -69,6 +69,10 @@ $experimental-support-for-khtml : true !default;
     float: left;
     width: 570px;
 
+    p{
+      color: #666;
+    }
+
   }
 
   aside {
