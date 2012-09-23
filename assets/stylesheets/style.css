@@ -399,7 +399,7 @@ footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 
 /** flatpage  */
 /* line 155, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.flatpage img { padding: 3px; border: 1px solid #D4CDC1; margin: 20px 0; }
+.flatpage img { padding: 3px; border: 1px solid #D4CDC1; margin: 20px 0 20px 0; }
 
 /** Team block */
 /* line 169, /Users/saleiva/workspace/website/assets/sass/style.scss */
