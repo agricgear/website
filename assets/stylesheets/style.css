@@ -309,7 +309,7 @@ footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 .video-intro a.video span { display: block; padding: 258px 230px 0 230px; font-size: 35px; line-height: 40px; letter-spacing: -0.05em; color: #ffffff; }
 
 /* line 64, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
-.image-intro { height: 132px; margin: 0 0 30px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.image-intro { height: 132px; margin: 0 0 20px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 /* line 73, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
 .gps-intro { height: 512px; margin: 0 0 34px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
@@ -351,182 +351,186 @@ footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 
 /** Main section defaults */
 /* line 29, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.main-section h2 { font-size: 47px; color: #999999; letter-spacing: -0.04em; margin: 0 0 10px 0; }
-/* line 37, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.main-section h2 { font-size: 47px; color: #999999; letter-spacing: -0.04em; margin: 22px 0 23px 0; line-height: 44px; }
+/* line 38, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .main-section h3 { font-size: 25px; color: #333333; letter-spacing: -0.04em; margin: 30px 0 10px 0; }
-/* line 45, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.main-section p { font-size: 17px; line-height: 21px; margin: 0 0 18px 0; }
-/* line 51, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 46, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.main-section p { font-size: 17px; line-height: 21px; margin: 0 0 18px 0; color: #666; }
+/* line 53, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.main-section ul { list-style-type: square; }
+/* line 56, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.main-section ul li { color: #666; margin: 0 0 7px 0; }
+/* line 62, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .main-section em { font-style: italic; }
-/* line 55, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 66, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .main-section strong { font-weight: bold; }
 
 /** Content with aside menu */
-/* line 63, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside { margin: 0 0 100px 0; }
-/* line 68, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside .content-wrapper { float: left; width: 570px; }
 /* line 74, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside aside { float: right; margin-top: 24px; width: 300px; }
+.content-with-aside { margin: 0 0 100px 0; }
 /* line 79, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside aside nav { padding-left: 30px; background: url(../images/style/aside-menu-divider.png) 0 0 no-repeat; }
-/* line 83, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside aside nav h4 { color: #333333; font-size: 25px; margin: 0 0 2px 0; }
+.content-with-aside .content-wrapper { float: left; width: 570px; }
+/* line 84, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.content-with-aside aside { float: right; margin-top: 24px; width: 300px; }
 /* line 89, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.content-with-aside aside nav { padding-left: 30px; background: url(../images/style/aside-menu-divider.png) 0 0 no-repeat; margin: 13px 0 0 0; }
+/* line 94, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.content-with-aside aside nav h4 { color: #333333; font-size: 25px; margin: 0 0 2px 0; }
+/* line 100, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .content-with-aside aside nav ul { margin: 0 0 20px 0; }
-/* line 92, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 103, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .content-with-aside aside nav li { font-size: 17px; color: #999999; border-bottom: 1px solid #cccccc; padding: 14px 0; }
-/* line 97, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 108, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .content-with-aside aside nav li:last-child { border: 0 none; }
-/* line 98, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 109, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .content-with-aside aside nav li a.selected { font-weight: regular; color: #999999; }
 
 /** Features block */
-/* line 114, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 125, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .features .item { padding: 15px 0 64px 0; text-align: center; font-size: 15px; background: url(../images/style/feature-divider.png) 100% 0 no-repeat; }
-/* line 120, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 131, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .features .item:last-child { background-image: none; }
-/* line 122, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 133, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .features .item h3 { font-size: 25px; line-height: 26px; margin: 22px 30px 11px 30px; }
-/* line 126, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 137, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .features .item h3 a { color: #333; }
-/* line 128, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 139, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .features .item p { margin: 0 35px; font-size: 15px; line-height: 19px; }
 
 /** flatpage  */
-/* line 142, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 153, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .flatpage img { padding: 3px; border: 1px solid #D4CDC1; margin: 20px 0; }
 
 /** Team block */
-/* line 156, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.team .item { padding: 30px 0 26px 0; text-align: center; font-size: 15px; background: url(../images/style/feature-divider.png) 100% 0 no-repeat; }
-/* line 161, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.team .item:last-child { background-image: none; }
-/* line 163, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.team .item h3 { font-size: 21px; margin: 12px 30px 6px 30px; }
 /* line 167, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.team .item p { margin: 0 25px; font-size: 15px; line-height: 18px; }
+.team .item { padding: 30px 0 26px 0; text-align: center; font-size: 15px; background: url(../images/style/feature-divider.png) 100% 0 no-repeat; }
 /* line 172, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.team .item:last-child { background-image: none; }
+/* line 174, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.team .item h3 { font-size: 21px; margin: 12px 30px 6px 30px; }
+/* line 178, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.team .item p { margin: 0 25px; font-size: 15px; line-height: 18px; }
+/* line 183, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .team .item img { -webkit-border-radius: 50%; -khtml-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
 
 /** FAQ block */
-/* line 185, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 196, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .faq h2 { text-align: center; }
-/* line 188, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 199, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .faq .item { text-align: center; }
-/* line 190, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 201, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .faq .item h3 { font-size: 25px; margin: 20px 0 10px 0; }
-/* line 194, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 205, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .faq .item p { margin: 0 32px; font-size: 15px; line-height: 18px; color: #666666; }
 
 /** Presskit block */
-/* line 206, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 217, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .presskit { margin: 50px 0 100px 0; }
-/* line 211, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 222, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .presskit h2 { margin: 0 0 33px 0; }
-/* line 215, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 226, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .presskit .item p { font-size: 15px; margin-right: 25px; }
-/* line 219, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 230, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .presskit .item .logo-light { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: inline-block; background: url(../images/style/transparent-light-bg.png) 0 0 repeat; }
-/* line 224, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 235, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .presskit .item .logo-dark { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: inline-block; background: url(../images/style/transparent-dark-bg.png) 0 0 repeat; }
 
 /** Testimonials block */
-/* line 235, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 246, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .testimonials { border: 1px solid #e6e6e6; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0px 0px 0px 5px white; -moz-box-shadow: inset 0px 0px 0px 5px white; box-shadow: inset 0px 0px 0px 5px white; background-color: #fbfbfb; margin: 0 0 50px 0; }
-/* line 245, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 256, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .testimonials .item { text-align: center; padding: 48px 0 22px 0; }
-/* line 249, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 260, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .testimonials .item img { -webkit-box-shadow: 0px 0px 0px 5px white; -moz-box-shadow: 0px 0px 0px 5px white; box-shadow: 0px 0px 0px 5px white; -webkit-border-radius: 50%; -khtml-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
-/* line 253, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 264, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .testimonials .item cite { display: block; font-size: 25px; letter-spacing: -0.07em; line-height: 30px; color: #333333; background: url(../images/style/icon-citebubble.png) 50% 0 no-repeat; padding: 56px 45px 13px 45px; margin: 24px 0 0; }
-/* line 267, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 278, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .testimonials .item p { font-size: 15px; color: #999999; }
 
 /** What's included block */
-/* line 279, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 290, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included { margin: 0 0 45px 0; }
-/* line 284, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 295, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block { float: left; width: 360px; }
-/* line 288, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 299, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block h2 { font-size: 41px; line-height: 41px; letter-spacing: -0.04em; color: #333333; margin: 30px 0 20px 0; }
-/* line 296, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 307, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block ul { margin: 0 0 17px -8px; }
-/* line 298, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.whats-included .left-block ul li { background: url(../images/style/bullet.png) 0 50% no-repeat; padding-left: 8px; margin-bottom: 5px; }
-/* line 304, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.whats-included .left-block .shopping { margin-top: 30px; }
 /* line 309, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.whats-included .left-block ul li { background: url(../images/style/bullet.png) 0 50% no-repeat; padding-left: 8px; margin-bottom: 5px; }
+/* line 315, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.whats-included .left-block .shopping { margin-top: 30px; }
+/* line 320, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .button { float: left; font-size: 23px; line-height: 49px; }
-/* line 314, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 325, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price { float: left; color: #999999; font-size: 10px; margin: 11px 0 0 14px; }
-/* line 321, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 332, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price strong { display: block; font-size: 41px; line-height: 12px; letter-spacing: -0.04em; color: #333333; }
-/* line 328, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 339, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price sup { font-size: 15px; vertical-align: baseline; position: relative; top: -1.1em; }
-/* line 337, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 348, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .whats-included .right-block { float: right; }
 
 /** Buy form block */
-/* line 345, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 356, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form { margin: 0 0 38px 0; }
-/* line 348, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 359, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form h2 { display: inline-block; font-size: 47px; font-weight: 700; line-height: 41px; letter-spacing: -0.04em; color: #333333; position: relative; margin: 25px 0 60px 50px; }
-/* line 357, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 368, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form h2 em { color: #999; font-style: normal; display: inline-block; position: absolute; right: 3px; bottom: -26px; font-size: 13px; font-weight: 400; letter-spacing: 0; }
-/* line 370, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 381, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form h3 { margin: 0 0 3px 0; }
-/* line 373, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 384, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form form { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; border: 1px solid #e6e6e6; background-color: #fbfbfb; -webkit-box-shadow: inset 0px 0px 0px 5px white; -moz-box-shadow: inset 0px 0px 0px 5px white; box-shadow: inset 0px 0px 0px 5px white; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: -moz-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: -o-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: linear-gradient(top, #fbfbfb, #f7f7f7); }
-/* line 382, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 393, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .left-block, .buy-form .right-block { float: left; width: 338px; text-align: center; margin: 5px 0; padding: 28px 58px; }
-/* line 389, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 400, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .right-block { border-left: 1px solid #e6e6e6; margin-left: -1px; }
-/* line 390, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 401, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form input { width: 230px; }
-/* line 391, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 402, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form p { font-size: 15px; color: #666666; line-height: 20px; margin: 0 0 34px 0; }
-/* line 398, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 409, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .phone { font-size: 47px; line-height: 85px; color: #59BC00; border-bottom: 1px solid #e6e6e6; margin: 0 0 16px 0; }
-/* line 406, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.buy-form .email { font-size: 37px; line-height: 35px; color: #59BC00; }
-/* line 412, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.buy-form .schedule { color: #cccccc; margin: 60px 0 0 0; }
 /* line 417, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.buy-form .email { font-size: 37px; line-height: 35px; color: #59BC00; }
+/* line 423, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.buy-form .schedule { color: #cccccc; margin: 60px 0 0 0; }
+/* line 428, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .field { margin: 0 0 14px 0; position: relative; display: inline-block; }
-/* line 422, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.buy-form .field label { color: #cccccc; font-size: 15px; width: 85px; display: block; line-height: 27px; position: absolute; left: 6px; top: 10px; border-right: 1px solid #e5e5e5; }
 /* line 433, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.buy-form .field label { color: #cccccc; font-size: 15px; width: 85px; display: block; line-height: 27px; position: absolute; left: 6px; top: 10px; border-right: 1px solid #e5e5e5; }
+/* line 444, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .field input { border: 1px solid #cccccc; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; outline: none; font-size: 15px; padding: 12px 10px 12px 100px; color: #999999; font-family: Helvetica, sans-serif; }
-/* line 441, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 452, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .buy-form .field input:focus { border: 1px solid #999999; }
 
 /** Compare packs block */
-/* line 450, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 461, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs { margin: 0 0 25px 0; }
-/* line 455, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 466, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs h2 { font-size: 41px; font-weight: 700; letter-spacing: -0.04em; color: #333333; margin: 0 0 30px 0; }
-/* line 463, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 474, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .intro, .compare-packs .pack { float: left; width: 33%; }
-/* line 469, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .intro p { padding-right: 45px; }
-/* line 472, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack { margin-top: -35px; text-align: center; background: url(../images/style/compare-packs-v-divider.png) 100% 0 no-repeat; }
-/* line 477, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack a { text-decoration: underline; }
 /* line 480, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .intro p { padding-right: 45px; }
+/* line 483, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack { margin-top: -35px; text-align: center; background: url(../images/style/compare-packs-v-divider.png) 100% 0 no-repeat; }
+/* line 488, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack a { text-decoration: underline; }
+/* line 491, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack li { font-size: 15px; color: #cccccc; background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat; line-height: 60px; }
-/* line 485, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
-/* line 489, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
 /* line 496, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
+/* line 500, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
+/* line 507, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack:last-child { background: none; }
-/* line 498, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 509, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack:last-child li { background-position: 100% 100%; }
-/* line 501, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 512, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack .included { background: url(../images/style/icon-check.png) 100% 50% no-repeat; padding-right: 23px; color: #666666; }
-/* line 506, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 517, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack strong { display: block; font-size: 19px; font-weight: 700; letter-spacing: -0.1em; color: #333333; }
-/* line 513, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 524, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack em { color: #999999; display: inline-block; background: url(../images/style/compare-packs-marker.png) 50% 100% no-repeat; padding: 0 0 16px 0; }

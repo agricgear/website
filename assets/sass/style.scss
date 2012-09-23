@@ -31,7 +31,7 @@ $experimental-support-for-khtml : true !default;
     font-size: 47px;
     color: #999999;
     letter-spacing: -0.04em;
-    margin: 22px 0 28px 0;
+    margin: 22px 0 23px 0;
     line-height: 44px;
   }
 
@@ -48,6 +48,15 @@ $experimental-support-for-khtml : true !default;
     line-height: 21px;
     margin: 0 0 18px 0;
     color: #666;
+  }
+
+  ul{
+    list-style-type: square;
+
+    li{
+      color:#666;
+      margin: 0 0 7px 0;
+    }
   }
 
   em {
