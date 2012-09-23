@@ -139,8 +139,9 @@ $experimental-support-for-khtml : true !default;
 
 .flatpage {
   img {
-    padding: 1px;
+    padding: 3px;
     border: 1px solid #D4CDC1;
+    margin:20px 0;
   }
 }
 
