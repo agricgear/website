@@ -60,29 +60,7 @@
       </div>
     </div>
 
-    <div class="testimonials">
-      <div class="item">
-
-        <img src="assets/images/content/testimonials/2.jpg">
-        <cite>“Lo he amortizado en una temporada"</cite>
-        <p>&mdash; Juanjo, Fuentesauco (Zamora) &mdash;</p>
-
-      </div>
-      <div class="item">
-
-        <img src="assets/images/content/testimonials/1.jpg">
-        <cite>“Ya no puedo trabajar sin él”</cite>
-        <p>&mdash; Marcos, Vega de los Árboles (León) &mdash;</p>
-
-      </div>
-      <div class="item">
-
-        <img src="assets/images/content/testimonials/3.jpg">
-        <cite>“Sencillo y práctico, para qué mas”</cite>
-        <p>&mdash; Moncho, Peñaflor (Valladolid) &mdash;</p>
-
-      </div>
-    </div>
+    {% include "_testimonials.html" %}
 
     <div class="whats-included">
 
@@ -97,7 +75,7 @@
         <p>Tu kit llegará en 24-48h tras realizar tu pedido, y tras instalarlo (te llevará un máximo de 20 minutos), podrás empezar a trabajar con él.</p>
 
         <p class="shopping">
-          <a href="buy.html" class="button">Comprar ahora</a>
+          <a href="{% url home-buy %}" class="button">Comprar ahora</a>
           <span class="price">
             <strong>999<sup>€</sup></strong> IVA NO INCLUIDO
           </span>
