@@ -1,532 +1,532 @@
 @charset "UTF-8";
-/* line 17, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
 
-/* line 22, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html { line-height: 1; }
 
-/* line 24, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul { list-style: none; }
 
-/* line 26, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 28, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
 
-/* line 30, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote { quotes: none; }
-/* line 103, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
 
-/* line 32, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img { border: none; }
 
-/* line 116, /Users/saleiva/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Users/javi/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-light-webfont-eot.eot"); src: url("../fonts/proximanova-light-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont-woff.woff") format("woff"), url("../fonts/proximanova-light-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-light-webfont-svg.svg#proxima_nova_ltregular") format("svg"); font-weight: 300; font-style: normal; }
 
-/* line 12, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 12, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-light, .about-intro .intro h2, .video-intro a.video span, .main-section h2 { font-family: 'proxima-nova', sans-serif; font-weight: 300; font-style: normal; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-lightitalic-webfont-eot.eot"); src: url("../fonts/proximanova-lightitalic-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-lightitalic-webfont-woff.woff") format("woff"), url("../fonts/proximanova-lightitalic-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-lightitalic-webfont-svg.svg#proxima_nova_ltitalic") format("svg"); font-weight: 300; font-style: italic; }
 
-/* line 29, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 29, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-light-italic { font-family: 'proxima-nova', sans-serif; font-weight: 300; font-style: italic; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-regular-webfont-eot.eot"); src: url("../fonts/proximanova-regular-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont-woff.woff") format("woff"), url("../fonts/proximanova-regular-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont-svg.svg#proxima_nova_rgregular") format("svg"); font-weight: 400; font-style: normal; }
 
-/* line 46, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 46, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-regular, .gps-intro p, .pc-intro p, .testimonials .item p { font-family: 'proxima-nova', sans-serif; font-weight: 400; font-style: normal; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-regitalic-webfont-eot.eot"); src: url("../fonts/proximanova-regitalic-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regitalic-webfont-woff.woff") format("woff"), url("../fonts/proximanova-regitalic-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-regitalic-webfont-svg.svg#proxima_nova_rgitalic") format("svg"); font-weight: 400; font-style: italic; }
 
-/* line 63, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 63, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-regular-italic, .testimonials .item cite { font-family: 'proxima-nova', sans-serif; font-weight: 400; font-style: italic; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-semibold-webfont-eot.eot"); src: url("../fonts/proximanova-semibold-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold-webfont-woff.woff") format("woff"), url("../fonts/proximanova-semibold-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-semibold-webfont-svg.svg#proxima_nova_ltbold") format("svg"); font-weight: 600; font-style: normal; }
 
-/* line 80, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 80, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-semibold { font-family: 'proxima-nova', sans-serif; font-weight: 600; font-style: normal; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-semibolditalic-webfont-eot.eot"); src: url("../fonts/proximanova-semibolditalic-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibolditalic-webfont-woff.woff") format("woff"), url("../fonts/proximanova-semibolditalic-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-semibolditalic-webfont-svg.svg#proxima_nova_ltbold_italic") format("svg"); font-weight: 600; font-style: italic; }
 
-/* line 97, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 97, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-semibold-italic { font-family: 'proxima-nova', sans-serif; font-weight: 600; font-style: italic; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-bold-webfont-eot.eot"); src: url("../fonts/proximanova-bold-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-bold-webfont-woff.woff") format("woff"), url("../fonts/proximanova-bold-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-bold-webfont-svg.svg#proxima_nova_rgbold") format("svg"); font-weight: 700; font-style: normal; }
 
-/* line 114, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 114, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-bold, .button, .big-button, .big-price-button, .call-us, .gps-intro h2, .pc-intro h2, .main-section h3, .content-with-aside aside nav h4, .whats-included .left-block h2, .whats-included .left-block .shopping .price, .buy-form .phone, .buy-form .email { font-family: 'proxima-nova', sans-serif; font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'proxima-nova'; src: url("../fonts/proximanova-boldit-webfont-eot.eot"); src: url("../fonts/proximanova-boldit-webfont-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-boldit-webfont-woff.woff") format("woff"), url("../fonts/proximanova-boldit-webfont-ttf.ttf") format("truetype"), url("../fonts/proximanova-boldit-webfont-svg.svg#proxima_nova_rgbold_italic") format("svg"); font-weight: 700; font-style: italic; }
 
-/* line 131, /Users/saleiva/workspace/website/assets/sass/_fonts.scss */
+/* line 131, /Users/javi/wrk/agricgear/website/assets/sass/_fonts.scss */
 .font-proxima-nova-bold-italic { font-family: 'proxima-nova', sans-serif; font-weight: 700; font-style: italic; }
 
 /* HTML5 Boilerplate  What follows is the result of much research on cross-browser styling. Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal, Kroc Camen, and the H5BP dev community and team. */
 /* ========================================================================== Base styles: opinionated defaults ========================================================================== */
-/* line 17, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 17, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 html, button, input, select, textarea { color: #222; }
 
-/* line 21, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 21, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 body { font-size: 1em; line-height: 1.4; }
 
 /* Remove text-shadow in selection highlight: h5bp.com/i These selection declarations have to be separate. Customize the background color to match your design. */
-/* line 32, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 32, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 ::-moz-selection { background: #b3d4fc; text-shadow: none; }
 
-/* line 37, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 37, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 ::selection { background: #b3d4fc; text-shadow: none; }
 
 /* A better looking default horizontal rule */
-/* line 46, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 46, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 
 /* Remove the gap between images and the bottom of their containers: h5bp.com/i/440 */
-/* line 59, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 59, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 img { vertical-align: middle; }
 
 /* Remove default fieldset styles. */
-/* line 67, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 67, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 fieldset { border: 0; margin: 0; padding: 0; }
 
 /* Allow only vertical resizing of textareas. */
-/* line 77, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 77, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 textarea { resize: vertical; }
 
 /* ========================================================================== Chrome Frame prompt ========================================================================== */
-/* line 85, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 85, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
 
 /* ========================================================================== Author's custom styles ========================================================================== */
 /* ========================================================================== Helper classes ========================================================================== */
 /* Image replacement */
-/* line 120, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 120, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
 
-/* line 128, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 128, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .ir:before { content: ""; display: block; width: 0; height: 100%; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 139, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 139, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 148, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 148, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 165, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 165, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 178, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 178, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .invisible { visibility: hidden; }
 
 /* Clearfix: contain floats  For modern browsers 1. The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document. Otherwise it causes space to appear at the top and bottom of elements that receive the `clearfix` class. 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements. */
-/* line 195, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 195, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .clearfix:before, .wrapper:before, .layout-3-cols:before, .features:before, .team:before, .faq:before, .presskit:before, .testimonials:before, .call-us .wrapper p:before, .main-section:before, .content-with-aside:before, .whats-included:before, .whats-included .left-block .shopping:before, .buy-form form:before, .compare-packs:before, .clearfix:after, .wrapper:after, .layout-3-cols:after, .features:after, .team:after, .faq:after, .presskit:after, .testimonials:after, .call-us .wrapper p:after, .main-section:after, .content-with-aside:after, .whats-included:after, .whats-included .left-block .shopping:after, .buy-form form:after, .compare-packs:after { content: " "; /* 1 */ display: table; /* 2 */ }
 
-/* line 200, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 200, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .clearfix:after, .wrapper:after, .layout-3-cols:after, .features:after, .team:after, .faq:after, .presskit:after, .testimonials:after, .call-us .wrapper p:after, .main-section:after, .content-with-aside:after, .whats-included:after, .whats-included .left-block .shopping:after, .buy-form form:after, .compare-packs:after { clear: both; }
 
 /* For IE 6/7 only Include this rule to trigger hasLayout and contain floats. */
-/* line 209, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+/* line 209, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
 .clearfix, .wrapper, .layout-3-cols, .features, .team, .faq, .presskit, .testimonials, .call-us .wrapper p, .main-section, .content-with-aside, .whats-included, .whats-included .left-block .shopping, .buy-form form, .compare-packs { *zoom: 1; }
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. Theses examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
 @media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
 /* ========================================================================== Print styles. Inlined to avoid required HTTP connection: h5bp.com/r ========================================================================== */
-@media print { /* line 234, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+@media print { /* line 234, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   * { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
-  /* line 242, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 242, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   a, a:visited { text-decoration: underline; }
-  /* line 246, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 246, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   a[href]:after { content: " (" attr(href) ")"; }
-  /* line 250, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 250, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   abbr[title]:after { content: " (" attr(title) ")"; }
   /* Don't show links for images, or javascript/internal links */
-  /* line 260, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 260, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  /* line 265, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 265, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* line 270, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 270, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   thead { display: table-header-group; /* h5bp.com/t */ }
-  /* line 275, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 275, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   tr, img { page-break-inside: avoid; }
-  /* line 279, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 279, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  /* line 289, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 289, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   p, h2, h3 { orphans: 3; widows: 3; }
-  /* line 295, /Users/saleiva/workspace/website/assets/sass/_html5boilerplate.scss */
+  /* line 295, /Users/javi/wrk/agricgear/website/assets/sass/_html5boilerplate.scss */
   h2, h3 { page-break-after: avoid; } }
 /** Base styles */
-/* line 6, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 6, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .lt-ie8 * { zoom: 1; }
 
-/* line 7, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 7, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .lt-ie8 .whats-included .left-block .shopping .price { margin: -6px 0 0 14px; line-height: 8px; }
 
-/* line 8, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 8, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .lt-ie9 .about-intro .intro { background: url(../images/style/black-85percent.png); }
 
-/* line 11, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 11, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 html { -webkit-font-smoothing: antialiased; font-smooth: always; font-family: Helvetica, sans-serif; background-color: #ffffff; color: #999999; }
 
-/* line 21, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 21, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .clearfix:after, .wrapper:after, .layout-3-cols:after, .features:after, .team:after, .faq:after, .presskit:after, .testimonials:after, .call-us .wrapper p:after, .main-section:after, .content-with-aside:after, .whats-included:after, .whats-included .left-block .shopping:after, .buy-form form:after, .compare-packs:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-/* line 28, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 28, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 * html .clearfix, * html .wrapper, * html .layout-3-cols, * html .features, * html .team, * html .faq, * html .presskit, * html .testimonials, * html .call-us .wrapper p, .call-us .wrapper * html p, * html .main-section, * html .content-with-aside, * html .whats-included, * html .whats-included .left-block .shopping, .whats-included .left-block * html .shopping, * html .buy-form form, .buy-form * html form, * html .compare-packs { height: 1px; }
 
-/* line 32, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 32, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .wrapper { width: 910px; margin: 0 auto; }
 
-/* line 39, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 39, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 a { color: #59B303; text-decoration: none; }
-/* line 42, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 42, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 a:hover { color: #468B02; }
 
-/* line 45, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 45, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 strong { font-weight: 700; }
 
-/* line 53, /Users/saleiva/workspace/website/assets/sass/_base.scss */
+/* line 53, /Users/javi/wrk/agricgear/website/assets/sass/_base.scss */
 .layout-3-cols .item, .features .item, .team .item, .faq .item, .presskit .item, .testimonials .item { width: 33%; float: left; }
 
 /** Buttons */
-/* line 6, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 6, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button { display: inline-block; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; border: none; color: #ffffff; font-size: 21px; line-height: 41px; padding: 0 15px; background-color: #57b900; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ccc00), color-stop(100%, #52ac00)); background-image: -webkit-linear-gradient(top, #6ccc00, #52ac00); background-image: -moz-linear-gradient(top, #6ccc00, #52ac00); background-image: -o-linear-gradient(top, #6ccc00, #52ac00); background-image: linear-gradient(top, #6ccc00, #52ac00); }
-/* line 19, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 19, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button:hover { color: #ffffff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #65cd02), color-stop(100%, #418401)); background-image: -webkit-linear-gradient(top, #65cd02, #418401); background-image: -moz-linear-gradient(top, #65cd02, #418401); background-image: -o-linear-gradient(top, #65cd02, #418401); background-image: linear-gradient(top, #65cd02, #418401); }
-/* line 23, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 23, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button:active { color: #ffffff; -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.15); }
-/* line 28, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 28, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.facebook { font-size: 17px; line-height: 39px; padding-left: 40px; background: #3b5998 url(../images/style/icon-facebook.png) 12px 50% no-repeat; }
-/* line 33, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 33, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.facebook:hover { color: #ffffff; background-color: #4D76C8; }
-/* line 34, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 34, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.facebook:active { color: #ffffff; background-color: #273C69; }
-/* line 36, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 36, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.twitter { font-size: 17px; line-height: 39px; padding-left: 40px; background: #3d8fca url(../images/style/icon-twitter.png) 12px 50% no-repeat; }
-/* line 41, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 41, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.twitter:hover { color: #ffffff; background-color: #45A7EC; }
-/* line 42, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 42, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .button.twitter:active { color: #ffffff; background-color: #2F72A1; }
 
-/* line 48, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 48, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-button, .big-price-button { display: inline-block; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.3); box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.3); border: none; color: #ffffff; padding: 1px 0; background-color: #57b900; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #61cf00), color-stop(100%, #4ca300)); background-image: -webkit-linear-gradient(top, #61cf00, #4ca300); background-image: -moz-linear-gradient(top, #61cf00, #4ca300); background-image: -o-linear-gradient(top, #61cf00, #4ca300); background-image: linear-gradient(top, #61cf00, #4ca300); }
-/* line 61, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 61, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-button:hover, .big-price-button:hover { color: #ffffff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #65cd02), color-stop(100%, #418401)); background-image: -webkit-linear-gradient(top, #65cd02, #418401); background-image: -moz-linear-gradient(top, #65cd02, #418401); background-image: -o-linear-gradient(top, #65cd02, #418401); background-image: linear-gradient(top, #65cd02, #418401); }
-/* line 65, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 65, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-button:active, .big-price-button:active { color: #ffffff; -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.4), 0px 0px 0px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.4), 0px 0px 0px 5px rgba(0, 0, 0, 0.3); box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.4), 0px 0px 0px 5px rgba(0, 0, 0, 0.3); }
-/* line 70, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 70, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-button .call-to-action, .big-price-button .call-to-action { float: left; display: block; font-size: 53px; letter-spacing: -0.04em; line-height: 80px; padding: 0 20px; }
 
-/* line 84, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 84, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-price-button .price-and-tax { display: block; float: left; padding: 10px 10px 10px 20px; border-right: 1px solid #438F00; }
-/* line 89, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 89, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-price-button .price-and-tax .price { display: block; font-size: 47px; letter-spacing: -0.04em; line-height: 43px; }
-/* line 94, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 94, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-price-button .price-and-tax .price sup { vertical-align: baseline; position: relative; top: -16px; font-size: 19px; line-height: 19px; }
-/* line 102, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 102, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-price-button .price-and-tax .taxes { display: block; color: #397900; font-size: 13px; }
-/* line 108, /Users/saleiva/workspace/website/assets/sass/_buttons.scss */
+/* line 108, /Users/javi/wrk/agricgear/website/assets/sass/_buttons.scss */
 .big-price-button .call-to-action { border-left: 1px solid #6BC800; }
 
 /** Page header */
-/* line 6, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 6, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header .logo { float: left; padding: 41px 0; }
-/* line 9, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 9, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header .logo a { display: block; width: 179px; height: 78px; background: url(../images/style/logo-agroguia.png) 0 0 no-repeat; text-indent: -20000px; }
-/* line 18, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 18, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav { float: right; }
-/* line 20, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 20, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li { float: left; width: 160px; height: 160px; font-family: 'proxima-nova', sans-serif; font-size: 15px; font-weight: 600; color: #666666; background-color: transparent; background-image: url(../images/style/topmenu-divider.png); background-position: 0 50%; background-repeat: no-repeat; text-align: center; }
-/* line 34, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 34, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.nav-item a { display: block; height: 141px; color: #333333; }
-/* line 38, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 38, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.nav-item a span { display: inline-block; margin-top: 103px; }
-/* line 44, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 44, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.buy-item { padding: 50px 0 0 20px; height: 110px; }
-/* line 47, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 47, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.buy-item .phone { display: inline-block; font-family: 'proxima-nova', sans-serif; font-size: 13px; font-weight: 700; color: #499E00; background: transparent url(../images/style/icon-phonemini.png) 0 50% no-repeat; padding-left: 12px; margin-top: 12px; }
-/* line 59, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 59, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.gps-guided a { background: transparent url(../images/style/icon-gpsguided.png) 50% 50% no-repeat; }
-/* line 60, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 60, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.online-works a { background: transparent url(../images/style/icon-onlineworks.png) 50% 50% no-repeat; }
-/* line 63, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 63, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.nav-item.active, header nav li.nav-item:hover { background-color: #f6f6f6; background-image: url(../images/style/topmenu-divider.png), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #f6f6f6), color-stop(100%, #ffffff)); background-image: url(../images/style/topmenu-divider.png), -webkit-linear-gradient(top, #ffffff, #f6f6f6, #ffffff); background-image: url(../images/style/topmenu-divider.png), -moz-linear-gradient(top, #ffffff, #f6f6f6, #ffffff); background-image: url(../images/style/topmenu-divider.png), -o-linear-gradient(top, #ffffff, #f6f6f6, #ffffff); background-image: url(../images/style/topmenu-divider.png), linear-gradient(top, #ffffff, #f6f6f6, #ffffff); }
 
 /** Call us block */
-/* line 79, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 79, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 .call-us .wrapper { border: 1px solid #e6e6e6; background-color: #fbfbfb; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0px 0px 0px 5px white; -moz-box-shadow: inset 0px 0px 0px 5px white; box-shadow: inset 0px 0px 0px 5px white; }
-/* line 86, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 86, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 .call-us .wrapper p { color: #333333; font-size: 41px; line-height: 47px; letter-spacing: -0.04em; padding: 34px; }
-/* line 94, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 94, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 .call-us .wrapper p span.claim { display: block; float: left; }
-/* line 99, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 99, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 .call-us .wrapper p span.phone { display: block; float: right; font-size: 35px; letter-spacing: 0px; padding-left: 65px; color: #59BD00; background: url(../images/style/icon-phonebubble.png) 0 50% no-repeat; }
 
 /** Page footer */
-/* line 116, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 116, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer { margin: 60px 0 0 0; padding: 56px 0; border-top: 1px solid #e5e5e5; }
-/* line 122, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 122, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav { float: left; font-size: 13px; color: #59B303; }
-/* line 128, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 128, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav p { color: #999999; margin: 4px 0 0 0; }
-/* line 133, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 133, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav li { float: left; }
-/* line 136, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 136, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav li a { margin: 0 10px; }
-/* line 140, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 140, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav li:after { content: "·"; }
-/* line 144, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 144, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav li:first-child a { margin-left: 0; }
-/* line 147, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 147, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer nav li:last-child:after { content: ""; }
-/* line 153, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 153, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer .social-buttons { float: right; }
-/* line 157, /Users/saleiva/workspace/website/assets/sass/_page-commons.scss */
+/* line 157, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 
-/* line 3, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 3, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .about-intro { padding: 60px 0; margin: 0 0 34px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/wheat-bg.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-/* line 11, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 11, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .about-intro .intro { padding: 120px 75px 108px 75px; text-align: center; background-color: rgba(0, 0, 0, 0.85); }
-/* line 17, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 17, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .about-intro .intro h2 { font-size: 47px; line-height: 47px; letter-spacing: -0.05em; color: #ffffff; margin: 0 0 30px 0; }
-/* line 26, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 26, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .about-intro .intro p { color: #cccccc; padding: 0 0 14px 0; }
 
-/* line 36, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 36, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .video-intro { padding: 57px 0; margin: 0 0 22px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor-darken.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-/* line 44, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 44, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .video-intro a.video { display: block; width: 900px; height: 450px; background-image: url(../images/intros/video-thumb-big.jpg); text-align: center; }
-/* line 51, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 51, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .video-intro a.video span { display: block; padding: 258px 230px 0 230px; font-size: 35px; line-height: 40px; letter-spacing: -0.05em; color: #ffffff; }
 
-/* line 64, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 64, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .image-intro { height: 132px; margin: 0 0 30px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-/* line 73, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 73, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro { height: 512px; margin: 0 0 34px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/tractor.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-/* line 80, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 80, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .wrapper { position: relative; }
-/* line 84, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 84, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .intro { width: 510px; padding: 47px 0; }
-/* line 89, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 89, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .gps-frame { position: absolute; right: -10px; top: -28px; }
-/* line 95, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 95, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro h2 { font-size: 57px; color: #ffffff; letter-spacing: -0.05em; text-shadow: 0px 0px 55px rgba(0, 0, 0, 0.5); }
-/* line 103, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 103, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro p { font-size: 23px; color: #ffffff; letter-spacing: -0.05em; line-height: 25px; text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); margin: 0 0 15px 0; }
-/* line 113, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 113, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .big-price-button { margin: 20px 0 62px 0; }
-/* line 117, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 117, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .video { color: #ffffff; font-size: 15px; }
-/* line 120, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 120, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .video a { display: block; float: left; -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3); box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3); -webkit-border-radius: 1px; -khtml-border-radius: 1px; -moz-border-radius: 1px; -ms-border-radius: 1px; -o-border-radius: 1px; border-radius: 1px; }
-/* line 126, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 126, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .gps-intro .video span { display: block; width: 190px; padding: 35px 0 0 16px; line-height: 16px; float: left; }
 
-/* line 138, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 138, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro { height: 452px; margin: 0 0 34px 0; -webkit-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.1), inset 0px -5px 8px rgba(0, 0, 0, 0.1); background: url(../images/intros/farm.jpg) 50% 50% no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-/* line 146, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 146, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro .wrapper { position: relative; }
-/* line 150, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 150, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro .intro { width: 500px; padding: 53px 0; }
-/* line 155, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 155, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro .gps-frame { position: absolute; right: 197px; top: 77px; }
-/* line 161, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 161, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro .pc-frame { position: absolute; right: -420px; top: -23px; }
-/* line 167, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 167, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro h2 { font-size: 57px; line-height: 56px; color: #ffffff; letter-spacing: -0.05em; text-shadow: 0px 0px 55px rgba(0, 0, 0, 0.5); margin: 0 0 14px 0; }
-/* line 177, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 177, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro p { font-size: 23px; color: #ffffff; letter-spacing: -0.05em; line-height: 25px; text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); margin: 0 0 15px 0; padding: 0 60px 0 0; }
-/* line 188, /Users/saleiva/workspace/website/assets/sass/_intros.scss */
+/* line 188, /Users/javi/wrk/agricgear/website/assets/sass/_intros.scss */
 .pc-intro .big-button, .pc-intro .big-price-button { margin: 20px 0 55px 0; }
 
 /** Main section defaults */
-/* line 29, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.main-section h2 { font-size: 47px; color: #999999; letter-spacing: -0.04em; margin: 0 0 10px 0; }
-/* line 37, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 31, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.main-section h2 { font-size: 47px; color: #999999; letter-spacing: -0.04em; margin: 22px 0 28px 0; line-height: 44px; }
+/* line 40, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .main-section h3 { font-size: 25px; color: #333333; letter-spacing: -0.04em; margin: 30px 0 10px 0; }
-/* line 45, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.main-section p { font-size: 17px; line-height: 21px; margin: 0 0 18px 0; }
-/* line 51, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 48, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.main-section p { font-size: 17px; line-height: 21px; margin: 0 0 18px 0; color: #666; }
+/* line 55, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .main-section em { font-style: italic; }
-/* line 55, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 59, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .main-section strong { font-weight: bold; }
 
 /** Content with aside menu */
-/* line 63, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 67, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside { margin: 0 0 100px 0; }
-/* line 68, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 72, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside .content-wrapper { float: left; width: 570px; }
-/* line 74, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 77, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside { float: right; margin-top: 24px; width: 300px; }
-/* line 79, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.content-with-aside aside nav { padding-left: 30px; background: url(../images/style/aside-menu-divider.png) 0 0 no-repeat; }
-/* line 83, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 82, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.content-with-aside aside nav { padding-left: 30px; background: url(../images/style/aside-menu-divider.png) 0 0 no-repeat; margin: 13px 0 0 0; }
+/* line 87, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside nav h4 { color: #333333; font-size: 25px; margin: 0 0 2px 0; }
-/* line 89, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 93, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside nav ul { margin: 0 0 20px 0; }
-/* line 92, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 96, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside nav li { font-size: 17px; color: #999999; border-bottom: 1px solid #cccccc; padding: 14px 0; }
-/* line 97, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 101, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside nav li:last-child { border: 0 none; }
-/* line 98, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 102, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .content-with-aside aside nav li a.selected { font-weight: regular; color: #999999; }
 
 /** Features block */
-/* line 114, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 118, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .features .item { padding: 15px 0 64px 0; text-align: center; font-size: 15px; background: url(../images/style/feature-divider.png) 100% 0 no-repeat; }
-/* line 120, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 124, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .features .item:last-child { background-image: none; }
-/* line 122, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 126, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .features .item h3 { font-size: 25px; line-height: 26px; margin: 22px 30px 11px 30px; }
-/* line 126, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 130, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .features .item h3 a { color: #333; }
-/* line 128, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 132, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .features .item p { margin: 0 35px; font-size: 15px; line-height: 19px; }
 
 /** flatpage  */
-/* line 142, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 146, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .flatpage img { padding: 3px; border: 1px solid #D4CDC1; margin: 20px 0; }
 
 /** Team block */
-/* line 156, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 160, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .team .item { padding: 30px 0 26px 0; text-align: center; font-size: 15px; background: url(../images/style/feature-divider.png) 100% 0 no-repeat; }
-/* line 161, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 165, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .team .item:last-child { background-image: none; }
-/* line 163, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 167, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .team .item h3 { font-size: 21px; margin: 12px 30px 6px 30px; }
-/* line 167, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 171, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .team .item p { margin: 0 25px; font-size: 15px; line-height: 18px; }
-/* line 172, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 176, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .team .item img { -webkit-border-radius: 50%; -khtml-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
 
 /** FAQ block */
-/* line 185, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 189, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .faq h2 { text-align: center; }
-/* line 188, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 192, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .faq .item { text-align: center; }
-/* line 190, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 194, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .faq .item h3 { font-size: 25px; margin: 20px 0 10px 0; }
-/* line 194, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 198, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .faq .item p { margin: 0 32px; font-size: 15px; line-height: 18px; color: #666666; }
 
 /** Presskit block */
-/* line 206, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 210, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .presskit { margin: 50px 0 100px 0; }
-/* line 211, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 215, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .presskit h2 { margin: 0 0 33px 0; }
-/* line 215, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 219, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .presskit .item p { font-size: 15px; margin-right: 25px; }
-/* line 219, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 223, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .presskit .item .logo-light { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: inline-block; background: url(../images/style/transparent-light-bg.png) 0 0 repeat; }
-/* line 224, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 228, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .presskit .item .logo-dark { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: inline-block; background: url(../images/style/transparent-dark-bg.png) 0 0 repeat; }
 
 /** Testimonials block */
-/* line 235, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 239, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .testimonials { border: 1px solid #e6e6e6; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0px 0px 0px 5px white; -moz-box-shadow: inset 0px 0px 0px 5px white; box-shadow: inset 0px 0px 0px 5px white; background-color: #fbfbfb; margin: 0 0 50px 0; }
-/* line 245, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 249, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .testimonials .item { text-align: center; padding: 48px 0 22px 0; }
-/* line 249, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 253, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .testimonials .item img { -webkit-box-shadow: 0px 0px 0px 5px white; -moz-box-shadow: 0px 0px 0px 5px white; box-shadow: 0px 0px 0px 5px white; -webkit-border-radius: 50%; -khtml-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
-/* line 253, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 257, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .testimonials .item cite { display: block; font-size: 25px; letter-spacing: -0.07em; line-height: 30px; color: #333333; background: url(../images/style/icon-citebubble.png) 50% 0 no-repeat; padding: 56px 45px 13px 45px; margin: 24px 0 0; }
-/* line 267, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 271, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .testimonials .item p { font-size: 15px; color: #999999; }
 
 /** What's included block */
-/* line 279, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 283, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included { margin: 0 0 45px 0; }
-/* line 284, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 288, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block { float: left; width: 360px; }
-/* line 288, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 292, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block h2 { font-size: 41px; line-height: 41px; letter-spacing: -0.04em; color: #333333; margin: 30px 0 20px 0; }
-/* line 296, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 300, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block ul { margin: 0 0 17px -8px; }
-/* line 298, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 302, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block ul li { background: url(../images/style/bullet.png) 0 50% no-repeat; padding-left: 8px; margin-bottom: 5px; }
-/* line 304, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 308, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block .shopping { margin-top: 30px; }
-/* line 309, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 313, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .button { float: left; font-size: 23px; line-height: 49px; }
-/* line 314, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 318, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price { float: left; color: #999999; font-size: 10px; margin: 11px 0 0 14px; }
-/* line 321, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 325, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price strong { display: block; font-size: 41px; line-height: 12px; letter-spacing: -0.04em; color: #333333; }
-/* line 328, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 332, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .left-block .shopping .price sup { font-size: 15px; vertical-align: baseline; position: relative; top: -1.1em; }
-/* line 337, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 341, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .whats-included .right-block { float: right; }
 
 /** Buy form block */
-/* line 345, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 349, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form { margin: 0 0 38px 0; }
-/* line 348, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 352, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form h2 { display: inline-block; font-size: 47px; font-weight: 700; line-height: 41px; letter-spacing: -0.04em; color: #333333; position: relative; margin: 25px 0 60px 50px; }
-/* line 357, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 361, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form h2 em { color: #999; font-style: normal; display: inline-block; position: absolute; right: 3px; bottom: -26px; font-size: 13px; font-weight: 400; letter-spacing: 0; }
-/* line 370, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 374, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form h3 { margin: 0 0 3px 0; }
-/* line 373, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 377, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form form { -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; border: 1px solid #e6e6e6; background-color: #fbfbfb; -webkit-box-shadow: inset 0px 0px 0px 5px white; -moz-box-shadow: inset 0px 0px 0px 5px white; box-shadow: inset 0px 0px 0px 5px white; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #f7f7f7)); background-image: -webkit-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: -moz-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: -o-linear-gradient(top, #fbfbfb, #f7f7f7); background-image: linear-gradient(top, #fbfbfb, #f7f7f7); }
-/* line 382, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 386, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .left-block, .buy-form .right-block { float: left; width: 338px; text-align: center; margin: 5px 0; padding: 28px 58px; }
-/* line 389, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 393, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .right-block { border-left: 1px solid #e6e6e6; margin-left: -1px; }
-/* line 390, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 394, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form input { width: 230px; }
-/* line 391, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 395, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form p { font-size: 15px; color: #666666; line-height: 20px; margin: 0 0 34px 0; }
-/* line 398, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 402, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .phone { font-size: 47px; line-height: 85px; color: #59BC00; border-bottom: 1px solid #e6e6e6; margin: 0 0 16px 0; }
-/* line 406, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 410, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .email { font-size: 37px; line-height: 35px; color: #59BC00; }
-/* line 412, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 416, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .schedule { color: #cccccc; margin: 60px 0 0 0; }
-/* line 417, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 421, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field { margin: 0 0 14px 0; position: relative; display: inline-block; }
-/* line 422, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 426, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field label { color: #cccccc; font-size: 15px; width: 85px; display: block; line-height: 27px; position: absolute; left: 6px; top: 10px; border-right: 1px solid #e5e5e5; }
-/* line 433, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 437, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field input { border: 1px solid #cccccc; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; outline: none; font-size: 15px; padding: 12px 10px 12px 100px; color: #999999; font-family: Helvetica, sans-serif; }
-/* line 441, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 445, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field input:focus { border: 1px solid #999999; }
 
 /** Compare packs block */
-/* line 450, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 454, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs { margin: 0 0 25px 0; }
-/* line 455, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 459, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs h2 { font-size: 41px; font-weight: 700; letter-spacing: -0.04em; color: #333333; margin: 0 0 30px 0; }
-/* line 463, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 467, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .intro, .compare-packs .pack { float: left; width: 33%; }
-/* line 469, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 473, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .intro p { padding-right: 45px; }
-/* line 472, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 476, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack { margin-top: -35px; text-align: center; background: url(../images/style/compare-packs-v-divider.png) 100% 0 no-repeat; }
-/* line 477, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 481, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack a { text-decoration: underline; }
-/* line 480, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 484, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack li { font-size: 15px; color: #cccccc; background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat; line-height: 60px; }
-/* line 485, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 489, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
-/* line 489, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 493, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
-/* line 496, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 500, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack:last-child { background: none; }
-/* line 498, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 502, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack:last-child li { background-position: 100% 100%; }
-/* line 501, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 505, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack .included { background: url(../images/style/icon-check.png) 100% 50% no-repeat; padding-right: 23px; color: #666666; }
-/* line 506, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 510, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack strong { display: block; font-size: 19px; font-weight: 700; letter-spacing: -0.1em; color: #333333; }
-/* line 513, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 517, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack em { color: #999999; display: inline-block; background: url(../images/style/compare-packs-marker.png) 50% 100% no-repeat; padding: 0 0 16px 0; }
