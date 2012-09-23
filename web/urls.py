@@ -1,8 +1,15 @@
 from django.conf.urls import patterns, include, url
 from django.conf.urls.i18n import i18n_patterns
 from django.utils.translation import ugettext_lazy as _
+from django.contrib.sitemaps import FlatPageSitemap, GenericSitemap
 
 from views import buy
+
+
+
+sitemaps = {
+    'flatpages': FlatPageSitemap,
+}
 
 urlpatterns = patterns('',
     url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html', 'extra_context': {'section': 'home'}}, name='home'),
@@ -12,6 +19,7 @@ urlpatterns = patterns('',
     url(_(r'^video'), 'django.views.generic.simple.direct_to_template', {'template': 'content-video.html'},  name='video'),
     url(_(r'^comprar-guiado-gps'), buy,  name='home-buy'),
     url(_(r'^nosotros'), 'django.views.generic.simple.direct_to_template', {'template': 'about.html'},  name='about'),
+    url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
 )
 
 # legacy 
