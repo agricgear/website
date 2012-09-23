@@ -31,7 +31,8 @@ $experimental-support-for-khtml : true !default;
     font-size: 47px;
     color: #999999;
     letter-spacing: -0.04em;
-    margin: 0 0 10px 0;
+    margin: 22px 0 28px 0;
+    line-height: 44px;
   }
 
   h3 {
@@ -46,6 +47,7 @@ $experimental-support-for-khtml : true !default;
     font-size: 17px;
     line-height: 21px;
     margin: 0 0 18px 0;
+    color: #666;
   }
 
   em {
@@ -68,11 +70,6 @@ $experimental-support-for-khtml : true !default;
   .content-wrapper {
     float: left;
     width: 570px;
-
-    p{
-      color: #666;
-    }
-
   }
 
   aside {
@@ -83,6 +80,7 @@ $experimental-support-for-khtml : true !default;
     nav {
       padding-left:30px;
       background: url(../images/style/aside-menu-divider.png) 0 0 no-repeat;
+      margin:13px 0 0 0;
 
       h4 {
         @extend .font-proxima-nova-bold;
