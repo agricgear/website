@@ -519,18 +519,20 @@ footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 /* line 490, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack a { text-decoration: underline; }
 /* line 493, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack li { font-size: 15px; color: #cccccc; background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat; line-height: 60px; }
-/* line 498, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
+.compare-packs .pack ul { list-style-type: none; }
+/* line 496, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack ul li { font-size: 15px; color: #cccccc; background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat; line-height: 60px; margin: 0; }
 /* line 502, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
-/* line 509, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack:last-child { background: none; }
-/* line 511, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack:last-child li { background-position: 100% 100%; }
+.compare-packs .pack ul li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
+/* line 506, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack ul li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
 /* line 514, /Users/saleiva/workspace/website/assets/sass/style.scss */
-.compare-packs .pack .included { background: url(../images/style/icon-check.png) 100% 50% no-repeat; padding-right: 23px; color: #666666; }
+.compare-packs .pack:last-child { background: none; }
+/* line 516, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack:last-child li { background-position: 100% 100%; }
 /* line 519, /Users/saleiva/workspace/website/assets/sass/style.scss */
+.compare-packs .pack .included { background: url(../images/style/icon-check.png) 100% 50% no-repeat; padding-right: 23px; color: #666666; }
+/* line 524, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack strong { display: block; font-size: 19px; font-weight: 700; letter-spacing: -0.1em; color: #333333; }
-/* line 526, /Users/saleiva/workspace/website/assets/sass/style.scss */
+/* line 531, /Users/saleiva/workspace/website/assets/sass/style.scss */
 .compare-packs .pack em { color: #999999; display: inline-block; background: url(../images/style/compare-packs-marker.png) 50% 100% no-repeat; padding: 0 0 16px 0; }

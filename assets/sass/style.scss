@@ -490,19 +490,24 @@ $experimental-support-for-khtml : true !default;
     a {
       text-decoration: underline;
     }
-    li {
-      font-size: 15px;
-      color:#cccccc;
-      background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat;
-      line-height: 60px;
-      &:first-child {
-        line-height: 23px;
-        padding: 35px 0 18px 0;
-      }
-      &:last-child {
-        line-height: 20px;
-        background: none;
-        padding: 24px 0 24px 0;
+    ul{
+      list-style-type: none;
+    
+      li {
+        font-size: 15px;
+        color:#cccccc;
+        background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat;
+        line-height: 60px;
+        margin:0;
+        &:first-child {
+          line-height: 23px;
+          padding: 35px 0 18px 0;
+        }
+        &:last-child {
+          line-height: 20px;
+          background: none;
+          padding: 24px 0 24px 0;
+        }
       }
     }
 
