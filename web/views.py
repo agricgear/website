@@ -6,6 +6,7 @@ from django import forms
 from django.utils.translation import ugettext_lazy as _
 
 from models import Contact
+from django.views.decorators.csrf import csrf_exempt
 
 class ContactForm(forms.ModelForm):
     class Meta:
@@ -16,6 +17,7 @@ class ContactForm(forms.ModelForm):
             raise forms.ValidationError(_(u'tienes que rellenar el email o el teléfono'))
         return self.cleaned_data
 
+@csrf_exempt
 def buy(request):
     ok = False
     form = ContactForm(request.POST or None)
