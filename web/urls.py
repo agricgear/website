@@ -3,7 +3,7 @@ from django.conf.urls.i18n import i18n_patterns
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.sitemaps import FlatPageSitemap, GenericSitemap
 
-from views import buy
+from views import buy, video
 
 
 
@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     url(r'^gps-agricola$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html'}, name='home'),
     url(r'^guiado-gps$', 'django.views.generic.simple.direct_to_template', {'template': 'home-gps.html'}, name='home'),
     url(_(r'^agroguia-pc'), 'django.views.generic.simple.direct_to_template', {'template': 'home-pc.html', 'extra_context': {'section': 'online'}},  name='home-pc'),
-    url(_(r'^video'), 'django.views.generic.simple.direct_to_template', {'template': 'content-video.html'},  name='video'),
+    url(_(r'^video'), video,  name='video'),
     url(_(r'^comprar-guiado-gps'), buy,  name='home-buy'),
     url(_(r'^nosotros'), 'django.views.generic.simple.direct_to_template', {'template': 'about.html'},  name='about'),
     url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),

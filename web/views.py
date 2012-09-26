@@ -7,6 +7,7 @@ from django.utils.translation import ugettext_lazy as _
 
 from models import Contact
 from django.views.decorators.csrf import csrf_exempt
+from django.utils.safestring import mark_safe
 
 class ContactForm(forms.ModelForm):
     class Meta:
@@ -28,6 +29,25 @@ def buy(request):
     return render_to_response('buy.html', {
         'form': form,
         'ok': ok
+    },
+    context_instance=RequestContext(request)
+    )
+
+def video(request):
+    video_embed = """
+    <iframe width="640" height="480" src="http://www.youtube.com/embed/albCTzEVraA" frameborder="0" allowfullscreen></iframe>
+    """
+    return render_to_response('content-video.html', {
+        'video_embed': video_embed,
+        'flatpage': {
+            'title': 'Videos de Agroguía',
+            'content': mark_safe("""<p>A continuación puede ver un video en el cual un agricultor trata una parcela con Agroguía. En ella aplica herbicida con una máquina Aguirre de 18 metros.</p>
+
+<p>El video está dividido en dos partes, además se muestran diferentes cámaras; una externa que muestra el trabajo del tractor, una interna que recoge los comentarios del agricultor y por último una mostrando la pantalla de Agroguía.</p>
+        
+            <p>Puedes ver la segunda parte en <a href="http://www.youtube.com/watch?feature=player_embedded&v=TVRus8td5v0">youtube</a>.</p>
+            """)
+        }
     },
     context_instance=RequestContext(request)
     )
