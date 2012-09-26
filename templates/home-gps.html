@@ -12,7 +12,9 @@
       <h2>Guiado GPS agrícola</h2>
       <p>La herramienta más <strong>simple</strong> para tratamientos fitosanitarios y abonos.</p>
 
-      <a href="/es/gps-agricola-caracteristicas" class="big-price-button">
+      <a href="/es/gps-agricola-caracteristicas" 
+        onclick="_gaq.push(['_trackEvent', 'home', 'call-to-action', '']);"
+        class="big-price-button">
         <span class="price-and-tax">
           <span class="price">999<sup>€</sup></span>
           <span class="taxes">IVA NO INCLUIDO</span>
@@ -22,7 +24,9 @@
       </a>
 
       <div class="video">
-        <a href="/video"><img src="assets/images/intros/video-thumb-small.png"></a>
+        <a href="/video"
+          onclick="_gaq.push(['_trackEvent', 'home', 'video', '']);"
+        ><img src="assets/images/intros/video-thumb-small.png"></a>
         <span>No te quedes con dudas. Mira el video explicativo</span>
       </div>
     </div>
@@ -40,20 +44,29 @@
       <div class="item">
 
         <a href="/es/tiempo-dinero"><img src="assets/images/content/features/save-time-and-money.png"></a>
-        <h3><a href="/es/tiempo-dinero">Ahorra tiempo y dinero</a></h3>
+        <h3><a 
+          onclick="_gaq.push(['_trackEvent', 'home', 'features', 'money']);"
+            
+            href="/es/tiempo-dinero">Ahorra tiempo y dinero</a></h3>
         <p>Olvídate de la espuma y de malgastar tu tiempo. Agroguía está diseñado para el trabajo con elevados anchos de trabajo.</p>
 
       </div>
       <div class="item">
 
-        <a href="/es/gps-agricola-sencillo-usar"><img src="assets/images/content/features/easy-to-use.png"></a>
+        <a href="/es/gps-agricola-sencillo-usar"
+          onclick="_gaq.push(['_trackEvent', 'home', 'features', 'easy']);"
+          
+          ><img src="assets/images/content/features/easy-to-use.png"></a>
         <h3><a href="/es/gps-agricola-sencillo-usar">Sencillo de usar</a></h3>
         <p>Configura el ancho del apero y pulsa empezar. A partir de ese momento Agroguía estará funcionando.</p>
 
       </div>
       <div class="item">
 
-        <a href="/es/guiado-agricultura-simple"><img src="assets/images/content/features/easy-to-install.png"></a>
+        <a href="/es/guiado-agricultura-simple"
+          onclick="_gaq.push(['_trackEvent', 'home', 'features', 'easy']);"
+          
+          ><img src="assets/images/content/features/easy-to-install.png"></a>
         <h3><a href="/es/guiado-agricultura-simple">Fácil instalación</a></h3>
         <p>Basta con colocar un soporte en el cristal delantero, situar el GPS en el techo de la cabina y conectar la toma de corriente a la tableta.</p>
 
@@ -75,7 +88,9 @@
         <p>Tu kit llegará en 24-48h tras realizar tu pedido, y tras instalarlo (te llevará un máximo de 20 minutos), podrás empezar a trabajar con él.</p>
 
         <p class="shopping">
-          <a href="{% url home-buy %}" class="button">Comprar ahora</a>
+          <a href="{% url home-buy %}" class="button"
+            onclick="_gaq.push(['_trackEvent', 'home', 'buy-down', '']);"
+            >Comprar ahora</a>
           <span class="price">
             <strong>999<sup>€</sup></strong> IVA NO INCLUIDO
           </span>
