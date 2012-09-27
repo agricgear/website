@@ -1,0 +1,2 @@
+
+*/5 * * * *     fabric cd /home/fabric/agroguia-website/ && /home/fabric/agroguia-website/env/bin/python /home/fabric/agroguia-website//manage.py send_mails
