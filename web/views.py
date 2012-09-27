@@ -35,14 +35,17 @@ def buy(request):
     )
 
 def video(request):
+    #<iframe width="640" height="480" src="http://www.youtube.com/embed/albCTzEVraA" frameborder="0" allowfullscreen></iframe>
     video_embed = """
-    <iframe width="640" height="480" src="http://www.youtube.com/embed/albCTzEVraA" frameborder="0" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="http://www.youtube.com/embed/LwO7mkRfrM4" frameborder="0" allowfullscreen></iframe>
     """
     return render_to_response('content-video.html', {
         'video_embed': video_embed,
         'flatpage': {
             'title': 'Videos de Agroguía',
             'content': mark_safe("""<p>A continuación puede ver un video en el cual un agricultor trata una parcela con Agroguía. En ella aplica herbicida con una máquina Aguirre de 18 metros.</p>
+
+                 <iframe width="480" height="360" src="http://www.youtube.com/embed/albCTzEVraA" frameborder="0" allowfullscreen></iframe>
 
 <p>El video está dividido en dos partes, además se muestran diferentes cámaras; una externa que muestra el trabajo del tractor, una interna que recoge los comentarios del agricultor y por último una mostrando la pantalla de Agroguía.</p>
         
