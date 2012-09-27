@@ -5,3 +5,4 @@ build
 tmp
 .sass-cache
 _public
+secret.py
