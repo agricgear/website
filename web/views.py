@@ -12,6 +12,7 @@ from django.utils.safestring import mark_safe
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
+        exclude = ('notified', )
 
     def clean(self):
         if not self.cleaned_data['phone'] and not self.cleaned_data['email']:
