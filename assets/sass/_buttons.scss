@@ -30,6 +30,7 @@
 		line-height:39px;
 		padding-left:40px;
 		background: #3B5998 url(../images/style/icon-facebook.png) 12px 50% no-repeat;
+    font-weight: normal;
 		&:hover{ color: #ffffff; background-color:#4D76C8;}
 		&:active{ color: #ffffff; background-color:#273C69;}
 	}
@@ -37,6 +38,7 @@
 		font-size: 17px;
 		line-height:39px;
 		padding-left:40px;
+    font-weight: normal;
 		background: #3D8FCA url(../images/style/icon-twitter.png) 12px 50% no-repeat;
 		&:hover{ color: #ffffff; background-color:#45A7EC;}
 		&:active{ color: #ffffff; background-color:#2F72A1;}
@@ -88,9 +90,10 @@
 		border-right: 1px solid #438F00;
 		.price {
 			display: block;
-			font-size: 47px;
+			font-size: 43px;
 			letter-spacing: -0.04em;
-			line-height: 43px;
+			line-height: 36px;
+      margin: 9px 0 0 0;
 			sup {
 				vertical-align: baseline;
 				position: relative;
