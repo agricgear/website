@@ -37,7 +37,7 @@ def buy(request):
 def video(request):
     #<iframe width="640" height="480" src="http://www.youtube.com/embed/albCTzEVraA" frameborder="0" allowfullscreen></iframe>
     video_embed = """
-    <iframe width="853" height="480" src="http://www.youtube.com/embed/LwO7mkRfrM4" frameborder="0" allowfullscreen></iframe>
+    <iframe width="900" height="453" src="http://www.youtube.com/embed/LwO7mkRfrM4" frameborder="0" allowfullscreen></iframe>
     """
     return render_to_response('content-video.html', {
         'video_embed': video_embed,
