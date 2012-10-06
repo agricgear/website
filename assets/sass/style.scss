@@ -453,6 +453,11 @@ $experimental-support-for-khtml : true !default;
       color: #999999;
       font-family: Helvetica, sans-serif;
       &:focus { border: 1px solid #999999; }
+
+     &.submit {
+       @extend .button;
+       width: 125px;
+     }
     }
   }
 
