@@ -11,7 +11,7 @@
 
       <h2>Compra ahora tu kit Agroguía por 1.250€ <em>(+IVA)</em></h2>
 
-      <form method="POST" action=""
+      <form method="POST" action="{{request.get_full_path}}"
         onsubmit="_gaq.push(['_trackEvent', 'buy', 'form-submit', '']);"
         >{% csrf_token %}
 
