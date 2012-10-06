@@ -7,7 +7,9 @@
 <div class="video-intro">
   <div class="wrapper" style="text-align: center;">
       <!--<a href="#" class="video"><span>No te quedes con dudas. Pulsa para ver el vídeo</span>-->
-      {{video_embed|safe}}
+      {% block video %}
+        {{video_embed|safe}}
+      {% endblock %}
       </a>
     </div>
   </div>
