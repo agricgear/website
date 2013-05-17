@@ -6,7 +6,7 @@
 <!--[if gt IE 8]> <!--> <html class="no-js"> <!--<![endif]-->
 {% load flatpages %}
 <head>
-  <title>{% block title %}Agroguía - Guiado GPS agrícola {% endblock %}</title>
+  <title>{% block title %} {% trans "Agroguía - Guiado GPS agrícola" %} {% endblock %}</title>
 
 
 
@@ -15,8 +15,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta charset="utf-8">
   <meta name="copyright" content="" />
-  <meta name="keywords" content="gps agricola, guiado gps, agroguia, gps agricultura, gps tractores, autoguiado, gps agricultura, agroguia, guiado agricola GPS, guiado agricultura" />
-  <meta name="description" content="sistema de guiado agrícola con GPS, tu GPS para el tractor" />
+  <meta name="keywords" content="{% trans "gps agricola, guiado gps, agroguia, gps agricultura, gps tractores, autoguiado, gps agricultura, agroguia, guiado agricola GPS, guiado agricultura" %}"/>
+  <meta name="description" content="{% trans "sistema de guiado agrícola con GPS, tu GPS para el tractor" %}" />
   <meta name="robots" content="index,follow" />
   <meta name="verify-v1" content="eMvIIFLh/PguWB2A0XgKp1JvSAYegcJukqvZE7x+N5w=" />
   <meta name="google-site-verification" content="huQSsN9qmK2isfmF0sOU3TWuyegPbHrve1K3Cqhsp1g" />
