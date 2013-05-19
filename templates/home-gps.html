@@ -1,4 +1,5 @@
 {% extends "_base.html" %}
+{% load i18n %}
 {% load flatpages %}
 
 
@@ -9,7 +10,7 @@
   <div class="wrapper">
 
     <div class="intro">
-      <h2> {% trans "Guiado GPS agrícola" %}</h2>
+      <h2>{% trans "Guiado GPS agrícola" %}</h2>
       <p> {% trans "La herramienta más " %}<strong> {% trans "simple" %}</strong> {% trans " para tratamientos fitosanitarios y abonos." %}</p>
 
       <a href="{% url home-buy %}"

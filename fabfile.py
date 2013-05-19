@@ -22,3 +22,7 @@ def deploy_web():
   sudo("cp %(deploy_folder)s/cron/agricgear-website /etc/cron.d/" % env)
   run("cd %(deploy_folder)s && ./env/bin/pip install -r requirements.txt" % env)
   run("cd %(deploy_folder)s && ./deploy/start.sh" % env)
+
+def backup():
+    copy_database()
+    
