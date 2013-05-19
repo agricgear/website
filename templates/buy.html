@@ -1,5 +1,6 @@
 {% extends "_base.html" %}
 {% load flatpages %}
+{% load i18n %}
 
 
 {% block content %}
@@ -34,12 +35,11 @@
             <p> {% trans "Laura te llamará en breve, normalmente te llamamos en el mismo día." %}</p>
             <p> {% trans "Por favor comprueba que " %} 
               {% if data.phone %}
-              {% trans "tu teléfono es " %}<strong>{{data.phone}}</strong>
+              {% blocktrans with phone=data.phone %} tu teléfono es <strong>{{phone}}</strong> {% endblocktrans %}
               {% else  %}
-              {% trans "tu email es " %} <strong>{{data.email}}</strong>
+              {% blocktrans with email=data.email %} tu email es  <strong>{{email}}</strong> {% endblocktrans %}
               {% endif %}
-              
-               {% trans ". Si no lo es " %} <a href="{{request.get_full_path}}"> {% trans "vuelve a enviárnoslo" %}</a>
+              {% blocktrans with url=request.get_full_path %}.Si no lo es <a href="{{url}}"> vuelve a enviárnoslo {% endblocktrans %}</a>
             {% endwith %}
           {% else %}
             <h3> {% trans "Deja que nosotros te llamemos" %}</h3>
@@ -84,7 +84,7 @@
 
       <div class="item">
         <h3> {% trans "¿Cuánto tarda en llegar?" %}</h3>
-        <p> {% trans "Depende del modo de pago, normalmente " %}<strong> {% trans "24-48h" %}</strong> {% trans ", aunque también hacemos envío urgente si lo necesitas." %}</p>
+        <p> {% trans "Depende del modo de pago, normalmente <strong>24-48h</strong>, aunque también hacemos envío urgente si lo necesitas." %}</p>
       </div>
 
       <div class="item">

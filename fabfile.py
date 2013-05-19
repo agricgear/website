@@ -25,4 +25,6 @@ def deploy_web():
 
 def backup():
     copy_database()
-    
+
+def makemessages():
+    local('django-admin.py makemessages --ignore env -l en')
