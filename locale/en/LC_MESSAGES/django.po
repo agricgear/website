@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-19 19:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/_base.html:11
+msgid "Agroguía - Guiado GPS agrícola"
+msgstr ""
+
+#: templates/_base.html:20
+msgid ""
+"gps agricola, guiado gps, agroguia, gps agricultura, gps tractores, "
+"autoguiado, gps agricultura, agroguia, guiado agricola GPS, guiado "
+"agricultura"
+msgstr ""
+
+#: templates/_base.html:21
+msgid "sistema de guiado agrícola con GPS, tu GPS para el tractor"
+msgstr ""
+
+#: templates/_call_us.html:6
+msgid "¿Tienes preguntas? Llámanos"
+msgstr ""
+
+#: templates/_call_us.html:6 templates/_header.html:10 templates/buy.html:25
+msgid "634 562 346"
+msgstr ""
+
+#: templates/_flatpage_include.html:14 templates/_header.html:8
+msgid "Guiado GPS"
+msgstr ""
+
+#: templates/_footer.html:6
+msgid "Agroguía 2012"
+msgstr ""
+
+#: templates/_footer.html:8
+msgid "Sobre nosotros"
+msgstr ""
+
+#: templates/_footer.html:9
+msgid "Características"
+msgstr ""
+
+#: templates/_footer.html:10
+msgid "Blog"
+msgstr ""
+
+#: templates/_footer.html:11
+msgid "Contacto"
+msgstr ""
+
+#: templates/_footer.html:16
+msgid "visítanos en facebook"
+msgstr ""
+
+#: templates/_footer.html:17
+msgid "síguenos en twitter"
+msgstr ""
+
+#: templates/_header.html:5
+msgid "Agroguía"
+msgstr ""
+
+#: templates/_header.html:9
+msgid "Trabajos on-line"
+msgstr ""
+
+#: templates/_header.html:10
+msgid "Información"
+msgstr ""
+
+#: templates/_testimonials.html:7
+msgid "“Lo he amortizado en una temporada”"
+msgstr ""
+
+#: templates/_testimonials.html:8
+msgid "Juanjo, Fuentesauco (Zamora)"
+msgstr ""
+
+#: templates/_testimonials.html:14
+msgid "“Ya no puedo trabajar sin él”"
+msgstr ""
+
+#: templates/_testimonials.html:15
+msgid "Marcos, Vega de los Árboles (León)"
+msgstr ""
+
+#: templates/_testimonials.html:21
+msgid "“Sencillo y práctico, para qué mas”"
+msgstr ""
+
+#: templates/_testimonials.html:22
+msgid "Moncho, Peñaflor (Valladolid)"
+msgstr ""
+
+#: templates/about.html:10
+msgid "Tecnología aplicada a la agricultura"
+msgstr ""
+
+#: templates/about.html:12
+msgid ""
+"El conocimiento del campo agrícola heredado de nuestros padres y abuelos, y "
+"nuestra pasión por la tecnología, convergen para dar forma a nuestros "
+"productos. Todos y cada uno de ellos realizados con extremado cariño y amor "
+"por el detalle."
+msgstr ""
+
+#: templates/about.html:14
+msgid ""
+"Nuestra filosofía es sencilla: Hacer las cosas bien para ofrecer productos "
+"de alta calidad a precios altamente competitivos."
+msgstr ""
+
+#: templates/about.html:22
+msgid "Quién está detrás"
+msgstr ""
+
+#: templates/about.html:26
+msgid "Javier Santana"
+msgstr ""
+
+#: templates/about.html:27
+msgid ""
+"Javier es Ingeniero en Telecomunicaciones y fundador de Agroguía. Si alguien "
+"sabe sobre las necesidades de los agricultores, es él."
+msgstr ""
+
+#: templates/about.html:31
+msgid "Laura del Pozo"
+msgstr ""
+
+#: templates/about.html:32
+msgid ""
+"Ingeniera en Telecomunicaciones y encargada de las relaciones con el "
+"cliente. Laura es, sin duda, la cara mas amable de Agroguía."
+msgstr ""
+
+#: templates/about.html:36
+msgid "Javier de la Torre"
+msgstr ""
+
+#: templates/about.html:37
+msgid ""
+"Ingeniero Agrónomo y Licenciado en CC. Medioambientales. Javier lidera el "
+"desarrollo de negocio y las relaciones internacionales."
+msgstr ""
+
+#: templates/about.html:44
+msgid "Sergio Álvarez Leiva"
+msgstr ""
+
+#: templates/about.html:45
+msgid ""
+"Ingeniero informático y Diseñador de producto. Sergio pasa las horas "
+"pensando cómo hacer Agroguía mas usable, potente y bonito."
+msgstr ""
+
+#: templates/about.html:49
+msgid "La “pequeña” Luna"
+msgstr ""
+
+#: templates/about.html:50
+msgid ""
+"Compañera de viaje desde el primer día. Lucha por no pasar demasiado calor "
+"mientras vigila que todo sigue en su sitio."
+msgstr ""
+
+#: templates/about.html:55
+msgid "Materiales y prensa"
+msgstr ""
+
+#: templates/about.html:58
+msgid "Si lo necesitas, descarga nuestro logotipo y nuestro "
+msgstr ""
+
+#: templates/about.html:58
+msgid "dossier de prensa."
+msgstr ""
+
+#: templates/about.html:59
+msgid "Si tienes alguna duda o necesidad más, escríbenos a "
+msgstr ""
+
+#: templates/about.html:59
+msgid "info@agroguia.es."
+msgstr ""
+
+#: templates/buy.html:14
+msgid "Recibe información de Agroguía "
+msgstr ""
+
+#: templates/buy.html:22
+msgid "Llámanos o escríbenos un e-mail"
+msgstr ""
+
+#: templates/buy.html:23
+msgid "Y te informaremos de todo lo necesario para realizar tu compra."
+msgstr ""
+
+#: templates/buy.html:26
+msgid "info@agroguia.es"
+msgstr ""
+
+#: templates/buy.html:27
+msgid "Disponibles en horario comercial"
+msgstr ""
+
+#: templates/buy.html:34
+msgid "Gracias"
+msgstr ""
+
+#: templates/buy.html:35
+msgid "Laura te llamará en breve, normalmente te llamamos en el mismo día."
+msgstr ""
+
+#: templates/buy.html:36
+msgid "Por favor comprueba que "
+msgstr ""
+
+#: templates/buy.html:38
+#, python-format
+msgid " tu teléfono es <strong>%(phone)s</strong> "
+msgstr ""
+
+#: templates/buy.html:40
+#, python-format
+msgid " tu email es  <strong>%(email)s</strong> "
+msgstr ""
+
+#: templates/buy.html:42
+#, python-format
+msgid ".Si no lo es <a href=\"%(url)s\"> vuelve a enviárnoslo "
+msgstr ""
+
+#: templates/buy.html:45
+msgid "Deja que nosotros te llamemos"
+msgstr ""
+
+#: templates/buy.html:47
+msgid "Debes indicar tu teléfono o tu email."
+msgstr ""
+
+#: templates/buy.html:50
+msgid ""
+"Introduce tus datos a continuación y nosotros te llamaremos para informarte."
+msgstr ""
+
+#: templates/buy.html:73
+msgid "Algunas preguntas frecuentes"
+msgstr ""
+
+#: templates/buy.html:76
+msgid "¿Cómo puedo pagar?"
+msgstr ""
+
+#: templates/buy.html:77
+msgid ""
+"Aceptamos pagos en efectivo, por transferencia bancaria o contrareembolso."
+msgstr ""
+
+#: templates/buy.html:81
+msgid "¿Qué incluye el kit?"
+msgstr ""
+
+#: templates/buy.html:82
+msgid "Recibirás todo lo necesario para empezar a trabajar."
+msgstr ""
+
+#: templates/buy.html:86
+msgid "¿Cuánto tarda en llegar?"
+msgstr ""
+
+#: templates/buy.html:87
+msgid ""
+"Depende del modo de pago, normalmente <strong>24-48h</strong>, aunque "
+"también hacemos envío urgente si lo necesitas."
+msgstr ""
+
+#: templates/buy.html:91
+msgid "¿Hay piezas auxiliares?"
+msgstr ""
+
+#: templates/buy.html:92
+msgid ""
+"Sí, puedes comprar sólo un GPS, un soporte, un cable de alimentación, etc."
+msgstr ""
+
+#: templates/buy.html:96
+msgid "¿Incluye garantía?"
+msgstr ""
+
+#: templates/buy.html:97
+msgid ""
+"Todos los componentes tienen 1 año de garantía, nosotros nos ocupamos de "
+"todo si algo va mal."
+msgstr ""
+
+#: templates/buy.html:101
+msgid "¿Y si necesito ayuda?"
+msgstr ""
+
+#: templates/buy.html:102
+msgid ""
+"Además, nuestro servicio de soporte solucionará tus problemas, dudas y "
+"consultas sobre el sistema, en menos de 24 horas."
+msgstr ""
+
+#: templates/home-gps.html:13
+msgid "Guiado GPS agrícola"
+msgstr ""
+
+#: templates/home-gps.html:14
+msgid ""
+"La herramienta más <strong>simple</strong> para tratamientos fitosanitarios "
+"y abonos."
+msgstr ""
+
+#: templates/home-gps.html:25 templates/home-pc.html:17
+msgid "Saber más"
+msgstr ""
+
+#: templates/home-gps.html:32
+msgid "No te quedes con dudas. Mira el video explicativo"
+msgstr ""
+
+#: templates/home-gps.html:52
+msgid "Ahorra tiempo y dinero"
+msgstr ""
+
+#: templates/home-gps.html:53
+msgid ""
+"Olvídate de la espuma y de malgastar tu tiempo. Agroguía está diseñado para "
+"el trabajo con elevados anchos de trabajo."
+msgstr ""
+
+#: templates/home-gps.html:62
+msgid "Sencillo de usar"
+msgstr ""
+
+#: templates/home-gps.html:63
+msgid ""
+"Configura el ancho del apero y pulsa empezar. A partir de ese momento "
+"Agroguía estará funcionando."
+msgstr ""
+
+#: templates/home-gps.html:72
+msgid "Fácil instalación"
+msgstr ""
+
+#: templates/home-gps.html:73
+msgid ""
+"Basta con colocar un soporte en el cristal delantero, situar el GPS en el "
+"techo de la cabina y conectar la toma de corriente a la tableta."
+msgstr ""
+
+#: templates/home-gps.html:83
+msgid "Qué contiene el kit Agroguía"
+msgstr ""
+
+#: templates/home-gps.html:85
+msgid "Antena GPS."
+msgstr ""
+
+#: templates/home-gps.html:86
+msgid "Dispositivo táctil con pantalla anti-reflejo."
+msgstr ""
+
+#: templates/home-gps.html:87
+msgid "Soporte de seguridad para cristal delantero."
+msgstr ""
+
+#: templates/home-gps.html:88
+msgid "Cable de alimentación"
+msgstr ""
+
+#: templates/home-gps.html:90
+msgid ""
+"Tu kit llegará en 24-48h tras realizar tu pedido, y tras instalarlo (te "
+"llevará un máximo de 20 minutos), podrás empezar a trabajar con él."
+msgstr ""
+
+#: templates/home-gps.html:95
+msgid "Recibir información"
+msgstr ""
+
+#: templates/home-pc.html:11
+msgid "Visualiza tu trabajo al llegar a casa."
+msgstr ""
+
+#: templates/home-pc.html:12
+msgid "Obtén informes de tus trabajos automáticamente al llegar a casa."
+msgstr ""
+
+#: templates/home-pc.html:13
+msgid "Y lo mejor, viene <strong>incluido con tu Agroguía</strong>"
+msgstr ""
+
+#: templates/home-pc.html:31
+msgid "Recibe tus informes por email"
+msgstr ""
+
+#: templates/home-pc.html:32
+msgid ""
+"Olvídate de descargar tus trabajos manualmente. Los informes llegarán a tu "
+"correo electrónico al final del día."
+msgstr ""
+
+#: templates/home-pc.html:36
+msgid "Visualiza tus trabajos en el ordenador"
+msgstr ""
+
+#: templates/home-pc.html:37
+msgid ""
+"Podrás ver el trayecto realizado, el tiempo invertido, el área tratada, las "
+"distancias medidas, etc..."
+msgstr ""
+
+#: templates/home-pc.html:41
+msgid "Guarda un histórico de trabajos"
+msgstr ""
+
+#: templates/home-pc.html:42
+msgid ""
+"Podrás acceder a tus trabajos desde cualquier parte y en cualquier momento. "
+"No volverás a perder un informe."
+msgstr ""
+
+#: templates/home-pc.html:49
+msgid "Qué incluye y cómo funciona"
+msgstr ""
+
+#: templates/home-pc.html:52
+msgid ""
+"Con tu kit Agroguía recibirás una suscripción ilimitada a la versión básica "
+"del servicio de trabajos on-line."
+msgstr ""
+
+#: templates/home-pc.html:54
+msgid ""
+"Existen otros paquetes más avanzados que te darán más funcionalidad, y que "
+"seguro, te facilitarán el trabajo."
+msgstr ""
+
+#: templates/home-pc.html:56
+msgid ""
+"Si tienes alguna pregunta o necesitas más información, no dudes en contactar "
+"con nosotros."
+msgstr ""
+
+#: templates/home-pc.html:61
+msgid "PAQUETE BÁSICO"
+msgstr ""
+
+#: templates/home-pc.html:64 templates/home-pc.html.py:80
+msgid "Informes por email"
+msgstr ""
+
+#: templates/home-pc.html:65 templates/home-pc.html.py:81
+msgid "Análisis de área remontada"
+msgstr ""
+
+#: templates/home-pc.html:66 templates/home-pc.html.py:82
+msgid "Historial de trabajos"
+msgstr ""
+
+#: templates/home-pc.html:67 templates/home-pc.html.py:83
+msgid "Generación de facturas"
+msgstr ""
+
+#: templates/home-pc.html:69
+msgid "0€/AÑO"
+msgstr ""
+
+#: templates/home-pc.html:70
+msgid "Incluido con Agroguía"
+msgstr ""
+
+#: templates/home-pc.html:77
+msgid "PAQUETE AVANZADO"
+msgstr ""
+
+#: templates/home-pc.html:85
+msgid "PREGÚNTANOS"
+msgstr ""
+
+#: web/models.py:8
+msgid "name"
+msgstr ""
+
+#: web/models.py:9
+msgid "email"
+msgstr ""
+
+#: web/models.py:10
+msgid "teléfono"
+msgstr ""
+
+#: web/urls.py:18
+msgid "^agroguia-pc"
+msgstr ""
+
+#: web/urls.py:19
+msgid "^video"
+msgstr ""
+
+#: web/urls.py:20
+msgid "^comprar-guiado-gps"
+msgstr ""
+
+#: web/urls.py:21 web/urls.py:27
+msgid "^nosotros"
+msgstr ""
+
+#: web/urls.py:28
+msgid "^comprar-agroguia"
+msgstr ""
+
+#: web/urls.py:28 web/urls.py:38 web/urls.py:39
+msgid "/comprar-guiado-gps"
+msgstr ""
+
+#: web/urls.py:30
+msgid "/es/gps-agricola-videos"
+msgstr ""
+
+#: web/urls.py:31
+msgid "/es/gps-agricola-caracteristicas"
+msgstr ""
+
+#: web/urls.py:32
+msgid "/es/utilidades-gps-agricultura"
+msgstr ""
+
+#: web/urls.py:33
+msgid "/es/parcelas-agroguia-sigpac"
+msgstr ""
+
+#: web/urls.py:34
+msgid "/es/medir-parcelas-gps"
+msgstr ""
+
+#: web/urls.py:35
+msgid "/es/guiado-agricultura-simple"
+msgstr ""
+
+#: web/urls.py:36
+msgid "/es/gps-herbicida-abono"
+msgstr ""
+
+#: web/urls.py:37
+msgid "/es/gps-agricola-sencillo-usar"
+msgstr ""
+
+#: web/views.py:19
+msgid "tienes que rellenar el email o el teléfono"
+msgstr ""
