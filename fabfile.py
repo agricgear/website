@@ -32,10 +32,7 @@ def backup():
 
 FLATPAGE_TMPL = u"""
 <title>{%% blocktrans %%}%(title)s{%% endblocktrans %%} </title>
-<body>
-    {%% blocktrans %%}
-    %(content)s
-    {%% endblocktrans %%}
+<body>{%% blocktrans %%}%(content)s{%% endblocktrans %%}
 </body>
 """
 def render_flatpages(json_export_file):
@@ -60,3 +57,10 @@ def makemessages():
     # render 1.json temporally pages
     render_flatpages('/tmp/1.json')
     local('django-admin.py makemessages --ignore env -l en')
+
+def compilemessages():
+    local("python manage.py compilemessages -l en")
+    local("rm -rf web/locale")
+    local("cp -r locale web")
+
+    

@@ -5,8 +5,12 @@
   <div class="wrapper">
     <div class="content-with-aside">
       <div class="content-wrapper">
-        <h2>{{ flatpage.title }}</h2>
-        {{ flatpage.content }}
+        {% with flatpage.title as title %}
+            <h2>{% trans title %}</h2>
+        {% endwith %}
+        {% with flatpage.content as content %}
+          {% trans content %}
+        {% endwith %}
 
       </div>
       <aside>
@@ -17,14 +21,14 @@
             {% get_flatpages '/es/pc/' as pc_pages%}
             {% for page in flatpages %}
               {% if page not in pc_pages %}
-                <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{% with page.title as title %}{% trans title %} {% endwith %}</a></li>
               {% endif %}
             {% endfor %}
           </ul>
-          <h4>Trabajos on-line</h4>
+          <h4>{% trans "Trabajos on-line" %}</h4>
           <ul>
             {% for page in pc_pages%}
-            <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{{ page.title }}</a></li>
+            <li><a {% if flatpage.url == page.url %} class="selected" {% endif %} href="{{ page.url }}">{% with page.title as title %}{% trans title %} {% endwith %}</a></li>
             {% endfor %}
           </ul>
         </nav>
