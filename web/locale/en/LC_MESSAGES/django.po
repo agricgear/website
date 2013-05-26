@@ -1,0 +1,998 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-19 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: en_US\n"
+"X-Source-Language: es_ES\n"
+
+#: templates/_base.html:11
+#, fuzzy
+msgid "Agroguía - Guiado GPS agrícola"
+msgstr "AgricGear - Precision agricultural GPS Guide"
+
+#: templates/_base.html:20
+msgid ""
+"gps agricola, guiado gps, agroguia, gps agricultura, gps tractores, "
+"autoguiado, gps agricultura, agroguia, guiado agricola GPS, guiado "
+"agricultura"
+msgstr "Gps Agriculture, gps guide, agroguia, agriculture gps, gps tractors, "
+"Auto guide, gps agriculture, agroguia, GPS agricultural guide, guide"
+"Agriculture"
+
+#: templates/_base.html:21
+msgid "sistema de guiado agrícola con GPS, tu GPS para el tractor"
+msgstr "Agricultural guidance system with GPS, your GPS for the tractor"
+
+#: templates/_call_us.html:6
+msgid "¿Tienes preguntas? Llámanos"
+msgstr "Do you have questions? Call us"
+
+#: templates/_call_us.html:6 templates/_header.html:10 templates/buy.html:25
+msgid "347 320 7715"
+msgstr ""
+
+#: templates/_flatpage_include.html:14 templates/_header.html:8
+msgid "Guiado GPS"
+msgstr "GPS Guide"
+
+#: templates/_footer.html:6
+msgid "Agroguía 2012"
+msgstr "AgricGear 2013"
+
+#: templates/_footer.html:8
+msgid "Sobre nosotros"
+msgstr "About Us"
+
+#: templates/_footer.html:9
+msgid "Características"
+msgstr "Features"
+
+#: templates/_footer.html:10
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/_footer.html:11
+msgid "Contacto"
+msgstr "Contact"
+
+#: templates/_footer.html:16
+msgid "visítanos en facebook"
+msgstr "Visit us on Facebook"
+
+#: templates/_footer.html:17
+msgid "síguenos en twitter"
+msgstr "Follow us on Twitter"
+
+#: templates/_header.html:5
+msgid "Agroguía"
+msgstr "AgricGear"
+
+#: templates/_header.html:9
+msgid "Trabajos on-line"
+msgstr "Online reports"
+
+#: templates/_header.html:10
+msgid "Información"
+msgstr "Information"
+
+#: templates/_testimonials.html:7
+msgid "“Lo he amortizado en una temporada”"
+msgstr "It paid itself back in one season"
+
+#: templates/_testimonials.html:8
+msgid "Juanjo, Fuentesauco (Zamora)"
+msgstr "Juanjo, Fuentesauco (Zamora)"
+
+#: templates/_testimonials.html:14
+msgid "“Ya no puedo trabajar sin él”"
+msgstr "Now I can't work without it"
+
+#: templates/_testimonials.html:15
+msgid "Marcos, Vega de los Árboles (León)"
+msgstr "Marcos, Vega de los Árboles (Leon)"
+
+#: templates/_testimonials.html:21
+msgid "“Sencillo y práctico, para qué mas”"
+msgstr "Simple and practical, why more?"
+
+#: templates/_testimonials.html:22
+msgid "Moncho, Peñaflor (Valladolid)"
+msgstr "Moncho, Peñaflor (Valladolid)"
+
+#: templates/about.html:10
+msgid "Tecnología aplicada a la agricultura"
+msgstr "Technology applied to agriculture"
+
+#: templates/about.html:12
+msgid ""
+"El conocimiento del campo agrícola heredado de nuestros padres y abuelos, y "
+"nuestra pasión por la tecnología, convergen para dar forma a nuestros "
+"productos. Todos y cada uno de ellos realizados con extremado cariño y amor "
+"por el detalle."
+msgstr "nowledge of the agricultural field taught by our parents and grandparents, and"
+"our passion for technology, define our products."
+"All made with extreme love and eye "
+"for detail."
+
+#: templates/about.html:14
+msgid ""
+"Nuestra filosofía es sencilla: Hacer las cosas bien para ofrecer productos "
+"de alta calidad a precios altamente competitivos."
+msgstr "Our philosophy is simple: Ensure to deliver the best products "
+"of high quality at competitive prices."
+
+#: templates/about.html:22
+msgid "Quién está detrás"
+msgstr "Who is behind"
+
+#: templates/about.html:26
+msgid "Javier Santana"
+msgstr "Javier Santana"
+
+#: templates/about.html:27
+msgid ""
+"Javier es Ingeniero en Telecomunicaciones y fundador de Agroguía. Si alguien "
+"sabe sobre las necesidades de los agricultores, es él."
+msgstr "Javier is a Telecommunications Engineer and founder of Agroguía. If someone "
+"knows about the needs of farmers is him."
+
+#: templates/about.html:31
+msgid "Laura del Pozo"
+msgstr "Laura del Pozo"
+
+#: templates/about.html:32
+msgid ""
+"Ingeniera en Telecomunicaciones y encargada de las relaciones con el "
+"cliente. Laura es, sin duda, la cara mas amable de Agroguía."
+msgstr "Telecommunications Engineer and responsible for the "
+"client relations. Laura is definitely the most friendly face of AgricGear."
+
+#: templates/about.html:36
+msgid "Javier de la Torre"
+msgstr "Javier de la Torre"
+
+#: templates/about.html:37
+msgid ""
+"Ingeniero Agrónomo y Licenciado en CC. Medioambientales. Javier lidera el "
+"desarrollo de negocio y las relaciones internacionales."
+msgstr "Agricultural Engineering and Bachelor on Environment science. Javier leads the "
+"business operations and international relations."
+
+#: templates/about.html:44
+msgid "Sergio Álvarez Leiva"
+msgstr "Sergio Alvarez Leiva"
+
+#: templates/about.html:45
+msgid ""
+"Ingeniero informático y Diseñador de producto. Sergio pasa las horas "
+"pensando cómo hacer Agroguía mas usable, potente y bonito."
+msgstr "Computer Engineer and Product Designer. Sergio spends hours "
+"thinking about how to make AgricGear more user friendly, powerful and beautiful."
+
+#: templates/about.html:49
+msgid "La “pequeña” Luna"
+msgstr "The “little“ Luna"
+
+#: templates/about.html:50
+msgid ""
+"Compañera de viaje desde el primer día. Lucha por no pasar demasiado calor "
+"mientras vigila que todo sigue en su sitio."
+msgstr "Travel companion from day one. Doesn’t like to be very warm, "
+"while watching that everything goes well."
+
+#: templates/about.html:55
+msgid "Materiales y prensa"
+msgstr "Media kit"
+
+#: templates/about.html:58
+msgid "Si lo necesitas, descarga nuestro logotipo y nuestro "
+msgstr "If you need it, you can download our logo and our"
+
+#: templates/about.html:58
+msgid "dossier de prensa."
+msgstr "press kit."
+
+#: templates/about.html:59
+msgid "Si tienes alguna duda o necesidad más, escríbenos a "
+msgstr "If you have any questions or remarks, contact us at"
+
+#: templates/about.html:59
+msgid "info@agroguia.es."
+msgstr "info@agroguia.es."
+
+#: templates/buy.html:14
+msgid "Recibe información de Agroguía "
+msgstr "Receive information about AgricGear"
+
+#: templates/buy.html:22
+msgid "Llámanos o escríbenos un e-mail"
+msgstr "Call us or write us an e-mail"
+
+#: templates/buy.html:23
+msgid "Y te informaremos de todo lo necesario para realizar tu compra."
+msgstr "and we'll inform you about everything you need to know to make a purchase."
+
+#: templates/buy.html:26
+msgid "info@agroguia.es"
+msgstr "info@agroguia.es"
+
+#: templates/buy.html:27
+msgid "Disponibles en horario comercial"
+msgstr "Available during business hours"
+
+#: templates/buy.html:34
+msgid "Gracias"
+msgstr "Thanks"
+
+#: templates/buy.html:35
+msgid "Laura te llamará en breve, normalmente te llamamos en el mismo día."
+msgstr "Laura will call you shortly, usually she will call you on the same day."
+
+#: templates/buy.html:36
+msgid "Por favor comprueba que "
+msgstr "Please check that"
+
+#: templates/buy.html:38
+#, python-format
+msgid " tu teléfono es <strong>%(phone)s</strong> "
+msgstr " your phone number is <strong>%(phone)s</strong>"
+
+#: templates/buy.html:40
+#, python-format
+msgid " tu email es  <strong>%(email)s</strong> "
+msgstr " your email is <strong>%(email)s</strong>"
+
+#: templates/buy.html:42
+#, python-format
+msgid ".Si no lo es <a href=\"%(url)s\"> vuelve a enviárnoslo "
+msgstr ". Any errors? <a href=\"%(url)s\">Please correct it</a>."
+
+#: templates/buy.html:45
+msgid "Deja que nosotros te llamemos"
+msgstr "Let us call you"
+
+#: templates/buy.html:47
+msgid "Debes indicar tu teléfono o tu email."
+msgstr "You must enter your phone number or email."
+
+#: templates/buy.html:50
+msgid ""
+"Introduce tus datos a continuación y nosotros te llamaremos para informarte."
+msgstr "Enter your details below and we'll call you to assist you."
+
+#: templates/buy.html:73
+msgid "Algunas preguntas frecuentes"
+msgstr "Some Frequently Asked Questions"
+
+#: templates/buy.html:76
+msgid "¿Cómo puedo pagar?"
+msgstr "How I can pay?"
+
+#: templates/buy.html:77
+msgid ""
+"Aceptamos pagos en efectivo, por transferencia bancaria o contrareembolso."
+msgstr "We accept payments by cash, bank transfer or cash on delivery."
+
+#: templates/buy.html:81
+msgid "¿Qué incluye el kit?"
+msgstr "What's in the kit?"
+
+#: templates/buy.html:82
+msgid "Recibirás todo lo necesario para empezar a trabajar."
+msgstr "You will receive everything you need to start working."
+
+#: templates/buy.html:86
+msgid "¿Cuánto tarda en llegar?"
+msgstr "What's the shipping time?"
+
+#: templates/buy.html:87
+msgid ""
+"Depende del modo de pago, normalmente <strong>24-48h</strong>, aunque "
+"también hacemos envío urgente si lo necesitas."
+msgstr "It depends on your payment method, usually <strong>24-48h,</strong> although "
+"you can also choose for an express delivery if you wish to."
+
+#: templates/buy.html:91
+msgid "¿Hay piezas auxiliares?"
+msgstr "Are there auxiliary parts?"
+
+#: templates/buy.html:92
+msgid ""
+"Sí, puedes comprar sólo un GPS, un soporte, un cable de alimentación, etc."
+msgstr "Yes, you can buy a single GPS, stand, power cord, etc.."
+
+#: templates/buy.html:96
+msgid "¿Incluye garantía?"
+msgstr "Does it include warranty?"
+
+#: templates/buy.html:97
+msgid ""
+"Todos los componentes tienen 1 año de garantía, nosotros nos ocupamos de "
+"todo si algo va mal."
+msgstr "All parts have a 1 year warranty, we'll take care of "
+"everything if something goes wrong."
+
+#: templates/buy.html:101
+msgid "¿Y si necesito ayuda?"
+msgstr "What if I need help?"
+
+#: templates/buy.html:102
+msgid ""
+"Además, nuestro servicio de soporte solucionará tus problemas, dudas y "
+"consultas sobre el sistema, en menos de 24 horas."
+msgstr "Moreover, our support will solve your problems, questions and "
+"inquiries about the system within 24 hours."
+
+#: templates/home-gps.html:13
+msgid "Guiado GPS agrícola"
+msgstr "Precision Agricultural GPS guide"
+
+#: templates/home-gps.html:14
+msgid ""
+"La herramienta más <strong>simple</strong> para tratamientos fitosanitarios "
+"y abonos."
+msgstr "The <strong>easiest</strong> tool for phytosanitary treatments "
+"and fertilizers."
+
+#: templates/home-gps.html:25 templates/home-pc.html:17
+msgid "Saber más"
+msgstr "Learn More"
+
+#: templates/home-gps.html:32
+msgid "No te quedes con dudas. Mira el video explicativo"
+msgstr "Don't have any doubts. Watch the info video"
+
+#: templates/home-gps.html:52 templates/es/tiempo-dinero.html:2
+msgid "Ahorra tiempo y dinero"
+msgstr "Save time and money"
+
+#: templates/home-gps.html:53
+msgid ""
+"Olvídate de la espuma y de malgastar tu tiempo. Agroguía está diseñado para "
+"el trabajo con elevados anchos de trabajo."
+msgstr "Forget the foam and your waste of time. Agroguía is designed to "
+"work with high working widths."
+
+#: templates/home-gps.html:62 templates/es/gps-agricola-sencillo-usar.html:2
+msgid "Sencillo de usar"
+msgstr "Easy to use"
+
+#: templates/home-gps.html:63
+msgid ""
+"Configura el ancho del apero y pulsa empezar. A partir de ese momento "
+"Agroguía estará funcionando."
+msgstr "Set the width of the implement and hit start. From that moment "
+"Agroguía starts working."
+
+#: templates/home-gps.html:72 templates/es/guiado-agricultura-simple.html:2
+msgid "Fácil instalación"
+msgstr "Easy to install"
+
+#: templates/home-gps.html:73
+msgid ""
+"Basta con colocar un soporte en el cristal delantero, situar el GPS en el "
+"techo de la cabina y conectar la toma de corriente a la tableta."
+msgstr "Simply place a holder on the windshield, put the GPS on the "
+"roof of the cabin and connect the power to the tablet."
+
+#: templates/home-gps.html:83
+msgid "Qué contiene el kit Agroguía"
+msgstr "What is in the AgricGear kit?"
+
+#: templates/home-gps.html:85
+msgid "Antena GPS."
+msgstr "GPS Antenna."
+
+#: templates/home-gps.html:86
+msgid "Dispositivo táctil con pantalla anti-reflejo."
+msgstr "Touch device with anti-reflection display."
+
+#: templates/home-gps.html:87
+msgid "Soporte de seguridad para cristal delantero."
+msgstr "Secure Holder for windshield."
+
+#: templates/home-gps.html:88
+msgid "Cable de alimentación"
+msgstr "Power Cord"
+
+#: templates/home-gps.html:90
+msgid ""
+"Tu kit llegará en 24-48h tras realizar tu pedido, y tras instalarlo (te "
+"llevará un máximo de 20 minutos), podrás empezar a trabajar con él."
+msgstr "Your kit will arrive in 24-48h after your order placement, and after installing (which takes up to 20 minutes), you can start working with it."
+
+#: templates/home-gps.html:95
+msgid "Recibir información"
+msgstr "Receive information"
+
+#: templates/home-pc.html:11
+msgid "Visualiza tu trabajo al llegar a casa."
+msgstr "View your work when you get home."
+
+#: templates/home-pc.html:12
+msgid "Obtén informes de tus trabajos automáticamente al llegar a casa."
+msgstr "Receive your work reports automatically when you get home."
+
+#: templates/home-pc.html:13
+msgid "Y lo mejor, viene <strong>incluido con tu Agroguía</strong>"
+msgstr "And the best, it is <strong>included with your AgricGear</strong>"
+
+#: templates/home-pc.html:31 templates/es/pc/recibe-informes.html:2
+msgid "Recibe tus informes por email"
+msgstr "Receive your reports by email"
+
+#: templates/home-pc.html:32
+msgid ""
+"Olvídate de descargar tus trabajos manualmente. Los informes llegarán a tu "
+"correo electrónico al final del día."
+msgstr "Forget about downloading your work manually. Reports will be delivered to your "
+"email inbox at the end of the day."
+
+#: templates/home-pc.html:36 templates/es/pc/visualizar-informes.html:2
+msgid "Visualiza tus trabajos en el ordenador"
+msgstr "View your work on the computer"
+
+#: templates/home-pc.html:37
+msgid ""
+"Podrás ver el trayecto realizado, el tiempo invertido, el área tratada, las "
+"distancias medidas, etc..."
+msgstr "You can view the distance covered, time spent, the treated area, the "
+"measured distances, etc ..."
+
+#: templates/home-pc.html:41 templates/es/pc/historico.html:2
+msgid "Guarda un histórico de trabajos"
+msgstr "Save job history"
+
+#: templates/home-pc.html:42
+msgid ""
+"Podrás acceder a tus trabajos desde cualquier parte y en cualquier momento. "
+"No volverás a perder un informe."
+msgstr "You can access your work from anywhere and anytime.  "
+"Never lose a report."
+
+#: templates/home-pc.html:49
+msgid "Qué incluye y cómo funciona"
+msgstr "What is included and how does it work?"
+
+#: templates/home-pc.html:52
+msgid ""
+"Con tu kit Agroguía recibirás una suscripción ilimitada a la versión básica "
+"del servicio de trabajos on-line."
+msgstr "With your Agroguía kit you’ll receive an unlimited subscription for the basic version "
+"to view your work online."
+
+#: templates/home-pc.html:54
+msgid ""
+"Existen otros paquetes más avanzados que te darán más funcionalidad, y que "
+"seguro, te facilitarán el trabajo."
+msgstr "There are other more advanced packages that will give you more functionality. They’ll facilitate your work for sure."
+
+#: templates/home-pc.html:56
+msgid ""
+"Si tienes alguna pregunta o necesitas más información, no dudes en contactar "
+"con nosotros."
+msgstr "If you have any questions or you would like to receive more information, do not hesitate to contact "
+"us."
+
+#: templates/home-pc.html:61
+msgid "PAQUETE BÁSICO"
+msgstr "BASIC PACKAGE"
+
+#: templates/home-pc.html:64 templates/home-pc.html.py:80
+msgid "Informes por email"
+msgstr "Reports by email"
+
+#: templates/home-pc.html:65 templates/home-pc.html.py:81
+msgid "Análisis de área remontada"
+msgstr "Analysis of traced area"
+
+#: templates/home-pc.html:66 templates/home-pc.html.py:82
+msgid "Historial de trabajos"
+msgstr "Job History"
+
+#: templates/home-pc.html:67 templates/home-pc.html.py:83
+msgid "Generación de facturas"
+msgstr "Create Invoices"
+
+#: templates/home-pc.html:69
+msgid "0€/AÑO"
+msgstr "0€/YEAR"
+
+#: templates/home-pc.html:70
+msgid "Incluido con Agroguía"
+msgstr "Included with AgricGear"
+
+#: templates/home-pc.html:77
+msgid "PAQUETE AVANZADO"
+msgstr "ADVANCED PACKAGE"
+
+#: templates/home-pc.html:85
+msgid "PREGÚNTANOS"
+msgstr "ASK US"
+
+#: templates/es/gps-agricola-caracteristicas.html:2
+msgid "Características del GPS agrícola"
+msgstr "Agricultural GPS Features"
+
+#: templates/es/gps-agricola-caracteristicas.html:4
+msgid ""
+"<p>Agroguía es un sistema de guiado agrícola GPS, especialmente diseñado "
+"para labores de <strong>abonado </strong> y aplicación de "
+"<strong>herbicidas</strong>.</p>\n"
+"<p>El sistema permite hacer tratamientos sin solapar ni dejar faltas, "
+"mateniendo la distancia a la anterior pasada con el fin de <strong>ahorrar "
+"dinero, tiempo y trabajo</strong></p>\n"
+"\n"
+"<h3> Qué ofrece Agroguía </h3>\n"
+"<ul>\n"
+"<li>Simplicidad en el uso.</li>\n"
+"<li>Marca las zonas tratadas, las que faltan por tratar y las zonas "
+"solapadas.</li>\n"
+"<li>Trazado de líneas rectas paralelas.</li>\n"
+"<li>Medidas de  área de la parcela, distancia entre dos puntos, velocidad y "
+"área tratada.</li>\n"
+"<li>Es posible guardar y recuperar datos para continuar otro día.</li>\n"
+"<li><a href=\"/agroguia-pc\"> Exportación de trabajos</a> al PC</li>\n"
+"\n"
+"<h3> Más información </h3>\n"
+"<li><a href=\"/comprar-guiado-gps\">Cómo comprar</a></li>\n"
+"<li><a href=\"/\">Información general</a></li>"
+msgstr ""
+"<p>Agroguía is an agricultural GPS guidance system, specially designed  "
+"for <strong>fertlizers</strong> and application of "
+"<strong>herbicides</strong>.</p>\n "
+"<p>The system allows treatment without overlaps or leaving faults,  "
+"maintaining the previous distance in order to <strong>save</strong>  "
+"money, time and labor</strong></p>\n "
+"\n "
+"<h3> What offers Agroguía? </h3>\n "
+"<ul>\n "
+"<li>Easy to use.</li>\n "
+"<li>Mark the treated areas, the ones which you still have to treat and the  "
+"overlapping areas.</li>\n "
+"<li>Trace parallel straight lines.</li>\n "
+"<li>Measure the plot area, distance between two points, speed and  "
+"treated area.</li>\n "
+"<li>You can save and retrieve data to continue another day.</li>\n "
+"<li><a href=\"/agroguia-pc\">Works export</a> to PC</li>\n "
+"\n "
+"<h3>More information</h3>\n "
+"<li><a href=\"/comprar-guiado-gps\">How to buy</a></li>\n "
+"<li><a href=\"/\">Overview</a></li>"
+
+#: templates/es/gps-agricola-sencillo-usar.html:4
+msgid ""
+"\n"
+"    <p>Lo principal que nos preocupaba de Agroguía, es que fuera muy "
+"sencillo de usar. </p><p>Como habrás visto en el video que hay un poco mas "
+"arriba, no necesitarás ningún tipo de conocimiento técnico para utilizarlo, "
+"basta con seleccionar el ancho del apero que se va a utilizar y pulsar en un "
+"botón para comenzar.</p>\n"
+"\n"
+"<h3> Más información </h3>\n"
+"<p>Si lo deseas puedes ver más información en nuestro blog: <a "
+"href=\"http://www.agroguia.es/blog/wordpress/2008/10/07/arrancando-agroguia/\">arrancando "
+"Agroguía</a>\n"
+", continuar leyendo acerca de nuestro  <a "
+"href=\"http://agroguia.es/\">sistema de guiado</a>\n"
+"o ver las características de nuestro <a "
+"href=\"/gps-agricola-caracteristicas\">GPS agrícola</a></p>\n"
+"    "
+msgstr "\n"
+"<p>The most important aspect of Agroguía for us was that it is very "
+"easy to use. </p><p>As told in the video above "
+", you don't need any technical knowledge to use it, "
+"just select the width of the implement that you're going to use and press on "
+"a button to begin.</p>\n "
+"\n "
+"<h3>More information</h3>\n "
+"<p>If you want to you can find more information on our blog: <a href=\"http:// "
+"www.agroguia.es/blog/wordpress/2008/10/07/arrancando-agroguia/\">start with "
+"Agroguía</a>\n "
+", continue to read about our <a href=\"http://agroguia.es/ "
+"\">Guidance system</a>\n "
+"or view the features of our <a href=\"/gps-agricola-caracteristicas "
+"\">Agricultural GPS</a></p>\n"
+"  "
+
+#: templates/es/gps-herbicida-abono.html:2
+msgid "Herbicida y Abono, sin espuma"
+msgstr "Weed and Feed, without foam"
+
+#: templates/es/gps-herbicida-abono.html:4
+msgid ""
+"<h3>Sin espuma</h3>\n"
+"<p>Olvídate de la espuma, Agroguía está diseñado para el trabajo con "
+"elevados anchos de trabajo. Ahora podrás trabajar por la noche, en cultivos "
+"altos o con máquinas de muy elevado ancho donde la espuma ya no es eficiente."
+"</p>\n"
+"\n"
+"<h3>Llega donde antes no podías llegar</h3>\n"
+"<p>Actualmente, con los sistemas basados en espuma, es fácil cometer un "
+"error en parcelas irregulares, cuando hay un poco de viento, con máquinas "
+"muy grandes, en pasadas donde hay que cortar electroválvulas, con cultivos "
+"muy altos, etc, y sin contar las labores de abonado, donde no es posible "
+"usar marcadores. Con Agroguía, esto se acabó.</p>\n"
+"\n"
+"<p>No obstante a lo largo del tiempo que llevamos comercializando Agroguía "
+"muchos agricultores nos han comentado otros <a href=\"utilidades-gps-"
+"agricultura\">usos para el GPS aplicados a la agricultura</a>.</p>\n"
+"<h3>Más información</h3>\n"
+"\n"
+"<p>Si lo deseas puedes ver más información en nuestro blog: <a href=\"http://"
+"www.agroguia.es/blog/wordpress/2008/10/09/comparativa-espuma-contra-guiado-"
+"agricola-gps/\">ventajas del guiado GPS en la agricultura</a> frente a la "
+"espuma\n"
+", continuar leyendo acerca <a href=\"http://agroguia.es/\">Agroguía</a>\n"
+"o ver las características de nuestro <a href=\"/gps-agricola-caracteristicas"
+"\">guiado GPS agrícola</a>\n"
+"</p>\n"
+msgstr ""
+"<h3>Without foam</h3>\n "
+"<p>Forget the foam, Agroguía is designed to work with  "
+"high working widths. Now you can work at night, on higher "
+"grounds or with machines for very high levels where the foam is no longer efficient. "
+"</p>\n "
+"\n "
+"<h3>Go where you couldn't go before</h3>\n "
+"<p>Currently, with foam-based systems, it is easy to make a  "
+"error with irregular parcels, when there is little wind, with very large machines "
+", in areas where you have to cut solenoid, with very high cultivation "
+", etc. and without paid work, where it isn't possible  "
+"to use markers. With Agroguía, this is over.</p>\n "
+"\n "
+"<p>But from the moment we started to sell Agroguía  "
+"many farmers told us about other <a href=\"utilidades-gps- "
+"agriculture\">uses for GPS, applied to agriculture.</p>\n "
+"<h3>More information</h3>\n "
+"\n "
+"<p>If you would like to, you can read more information on our blog: <a href=\"http:// "
+"www.agroguia.es/blog/wordpress/2008/10/09/comparativa-espuma-contra-guiado- "
+"agricola-gps/\">Advantages of GPS in agriculture</a> instead of "
+"foam\n "
+", continue to read about <a href=\"http://agroguia.es/\">Agroguía</a>\n "
+"or view the features of our <a href=\"/gps-agricola-caracteristicas "
+"\">Agricultural GPS guidance</a>\n "
+"</p>\n"
+
+#: templates/es/guiado-agricultura-simple.html:4
+msgid ""
+"\n"
+"    <p>La instalación del sistema GPS es muy simple, basta colocar un "
+"soporte de doble ventosa al cristal delantero, situar la antena en el techo "
+"de la cabina y conectar a la toma de corriente (mechero o toma "
+"standard)</p>\n"
+"\n"
+"<h3>¿Qué incluye el kit Agroguía?</h3>\n"
+"<ul>\n"
+"<li>El equipo que usted recibirá, está compuesto de los siguientes "
+"elementos.</li>\n"
+"<li>Tableta táctil con gran pantalla anti-reflejos.</li>\n"
+"<li>GPS de alta precisión.</li>\n"
+"<li>Software Agroguía.</li>\n"
+"<li>Cables de alimentación.</li>\n"
+"<li>Soporte de seguridad para la Tableta.</li>\n"
+"<li>Manual de uso.</li>\n"
+"</ul>\n"
+"\n"
+"<h3>¿Cómo se instala?</h3>\n"
+"<p>El equipo se envía probado y listo para funcionar. Se adjunta un manual "
+"de instalación y uso detallado con imágenes, pero resumiendo, sólo tendrás "
+"que:</p>\n"
+"<ul>\n"
+"<li>Colocar el soporte al cristal del tractor, en una zona cómoda y visible "
+"para el agricultor </li>\n"
+"<li>Colocar la Tablet en el soporte.</li>\n"
+"<li>Situar el GPS encima de la cabina.</li>\n"
+"<li>Conectar los cables de alimentación (sólo tienen una posición, es "
+"imposible confundirse).</li>\n"
+"<li>Arrancar la Tableta y empezar a trabajar</li>\n"
+"</ul>\n"
+"\n"
+"<h3>Más información</h3>\n"
+"<p> Si te interesa puedes <a href=\"informacion-agroguia\">comprar o "
+"solicitar información de nuestro guiado agrícola</a>.</p>\n"
+"\n"
+"    "
+msgstr ""
+
+#: templates/es/medir-parcelas-gps.html:2
+msgid "Todo tipo de parcelas y condiciones"
+msgstr ""
+
+#: templates/es/medir-parcelas-gps.html:4
+msgid ""
+"<p>Con Agroguía podrás trabajar en parcelas irregulares, por la noche o con "
+"niebla.</p>\n"
+"\n"
+"<p>Es habitual encontrarse con la situación en la que, mientras se está "
+"abonando o aplicando herbicida, se hace de noche y amenaza lluvia para los "
+"próximos días. Un sistema de guiado GPS como Agroguía, permitirá seguir "
+"tratando por la noche, ya que <strong>no es necesario ver bolas de espuma ni "
+"referencias en la parcela</strong>.</p>\n"
+"\n"
+"<p>Agroguía también es útil en parcelas irregulares, donde es necesario "
+"hacer curvas, tratar picones, terminar la parcela con sólo ciertos tramos "
+"abiertos. Si estás interesado puedes leer en nuestro blog un artículo acerca "
+"de cómo <a href=\"http://www.agroguia.es/blog/wordpress/2009/02/01/manejo-de-"
+"los-tramos-en-el-equipo-de-herbicida-mediane-agroguia/\"> tratar con "
+"máquinas de herbicida con apertura y cierre de tramos</a> con Agroguía.</p>\n"
+"\n"
+msgstr ""
+    "<p>With Agroguía you can work in irregular areas, at night or  "
+"with fog.</p>\n "
+"\n "
+"<p>It is common to find yourself in a situation when, while it is  "
+"time to apply herbicide, it's getting dark and there's rain coming for  "
+"the coming days. A GPS guidance system as Agroguía, allows you to  "
+"continue at night, because<strong>it is not necessary to be able to see foam balls or  "
+"references in the area</strong>.</p>\n "
+"\n "
+"<p>Agroguía is also useful in irregular parcels, where it's necessary  "
+"to make curves, care the tops, and finish the area with only a few open sections "
+"</p>\n "
+"\n"
+
+#: templates/es/tiempo-dinero.html:4
+msgid ""
+"<p>Agroguía permite trabajar con aperos muy anchos.</p>\n"
+"<p>Por ejemplo, las abonadoras permiten configurar el ancho de trabajo, pero "
+"muchos agricultores no están aprovechando el máximo alcance, porque con "
+"estos anchos no se puede ir a ojo.</p>\n"
+"\n"
+"<p>Las ventajas de usar Agroguía y así poder configurar el mayor ancho "
+"posible son:</p>\n"
+"<ul>\n"
+"<li>Darás <strong>menos pasadas</strong> en la parcela, ahorrando tiempo y "
+"por supuesto dinero, ya que el gasto en combustible será proporcional al "
+"número de pasadas (que en algunos casos pasará a ser menor de la mitad del "
+"gasto inicial).</li>\n"
+"<li>Vas a ahorrar en producto, ya que Agroguía te va a ayudar a no solapar y "
+"a no dejar nada sin tratar. Esto también va a suponer un aumento de la "
+"productividad.</li>\n"
+"<li>Otra ventaja es que, al dar menor número de pasadas, el área pisada por "
+"el tractor va a ser menor, estropeando menos el cultivo.</li>"
+msgstr ""
+    "<p>Agroguía allows you to work with very wide tools.</p>\n "
+"<p>For example, the spreaders allow you to configure the width of the work, but  "
+"many farmers don't take advantage of the maximum range, because  "
+"these widths cannot be done manually.</p>\n "
+"\n "
+"<p>The advantages of using Agroguía and hence using the greatest width  "
+"are: </p>\n "
+"<ul>\n "
+"<li><strong>Fewer passes</strong> in the area, saving time and  "
+"of course money, because fuel costs will be proportional to "
+"number of passes (which in some cases becomes smaller than half of the "
+"original route).</li>\n "
+"<li>You'll save on product, because Agroguía will make sure that you don't overlap or  "
+"leave nothing untreated. This will also result in an increase of  "
+"productivity.</li>\n "
+"<li>Another advantage is that by using fewer passes, the area trampled by  "
+"the tractor will be smaller, which will spoil the cultivation less.</li>"
+
+#: templates/es/utilidades-gps-agricultura.html:2
+msgid "Descubre otras utilidades"
+msgstr "Discover other usages"
+
+#: templates/es/utilidades-gps-agricultura.html:4
+msgid ""
+"<p>Con Agroguía puedes medir velocidad, hectáreas tratadas, área de la "
+"parcela, distancia sobre el terreno, calibrar su abonadora, sembrar usando "
+"abonadora, guardar los trabajos para continuar más tarde y una larguísima "
+"lista de cosas. Nosotros hemos recopilado en nuestro blog algunas de ellas y "
+"otras que nos han ido descubriendo nuestros clientes:</p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2008/10/19/agroguia-para-"
+"vinas-olivos-naranjos-o-cualquier-otro-tipo-de-plantacion/\">GPS para "
+"viñedos y otras plantaciones</a></li>\n"
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2008/06/12/"
+"fumigaratomizar-con-agroguia/\"> Fumigar y atomizar </a></li>\n"
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2008/05/07/soporte-para-"
+"visulizacion-de-datos-en-pc/\"> Visualizar parcelas en Google Earth  </a></"
+"li>\n"
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2007/10/07/nuevas-"
+"caracteristicas-de-agroguia/\"> Ver zonas remontadas</a></li>\n"
+"</ul>"
+msgstr ""
+"<p>With Agroguía you can measure speed, acres treated, area "
+", total distance, calibrate your spreader, planting using "
+"fertilizer, save the work to continue later and a lengthy "
+"list of things. We've compiled some of them on our blog and  "
+ "the ones that our customers had discovered:</p>\n "
+"\n "
+"<ul>\n "
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2008/10/19/agroguia-para- "
+"vinas-olivos-naranjos-o-cualquier-otro-tipo-de-plantacion/\">GPS for  "
+"vineyards and other plantations</a></li>\n "
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2008/06/12/ "
+"fumigaratomizar-con-agroguia/\"> Spraying and atomize </a></li>\n "
+"<li><a href=\"Whttp://www.agroguia.es/blog/wordpress/2008/05/07/soporte-para- "
+"visulizacion-de-datos-en-pc/\"> Display areas in Google Earth </a></ "
+"li>\n "
+"<li><a href=\"http://www.agroguia.es/blog/wordpress/2007/10/07/nuevas- "
+"caracteristicas-de-agroguia/\"> View comeback areas</a></li>\n "
+"</ul>\n"
+"   "
+
+#: templates/es/pc/historico.html:4
+msgid ""
+"<p>Si estás interesado en disponer de un listado de todos los trabajos que "
+"has ido almacenando, para hacer un seguimiento de tu trabajo o para ayudarte "
+"a rellenar tu cuaderno de campo, ponte en contacto con nosotros y te "
+"explicamos lo qué tienes hacer.</p>"
+msgstr ""
+    "<p>If you would like to view a list of all works that have been stored "
+", in order to keep track of your work or to "
+"help you to fill in your field notebook, please contact us and "
+ "we'll explain you what to do.</p>\n"
+"  "
+
+#: templates/es/pc/recibe-informes.html:4
+msgid ""
+"<p>Con esta nueva versión de Agroguía, se generarán informes de los trabajos "
+"guardados en el campo de manera automática. Estos informes te podrán servir "
+"para hacer un seguimiento de los trabajos realizados o incluso para rellenar "
+"tu cuaderno de campo</p>\n"
+"\n"
+"<h3>¿Cómo recibiré los informes?</h3>\n"
+"<ul>\n"
+"<li>Los informes se envían a tu correo electrónico.</li>\n"
+"<li>Nosotros te damos de alta y automáticamente cuando llegues a casa, la "
+"tablet se conecta a internet y se envían los trabajos a tu correo.</li>\n"
+"<li>Es indispensable que la tableta tenga acceso a alguna red wifi para "
+"poder conectarse y enviar los trabajos. Si no sabes cómo conectar tu tablet "
+"a internet, nosotros te ayudamos. No dudes en contactar con nosotros por "
+"email o por teléfono.</li>\n"
+"<li>Al entrar en tu email, verás que tienes correo nuevo de Agroguía.</p>\n"
+"<img src=\"/assets/images/content/es/pc/receiver-report/report-mail.png\">\n"
+"<li>Una vez abierto el correo, para ver los informes tendrás que pinchar en "
+"los enlaces que hay en el e-mail. Habrá un enlace por cada trabajo enviado, "
+"donde se indica la fecha de este y el nombre que le hayas asignado.\n"
+"<img src=\"/assets/images/content/es/pc/receiver-report/open-mail.png\">\n"
+"</ul>"
+msgstr ""
+    "<p>With this latest version of Agroguía, work reports will be generated  "
+"automatically in the field. These reports  "
+"may serve to keep track of your completed work or even "
+"to fill in your field notebook</p>\n "
+"\n "
+"<h3>How can I receive reports?</h3>\n "
+"<ul>\n "
+"<li>Reports will be sent to your email.</li>\n "
+"<li>When you arrive at home,  "
+"the tablet connects to the Internet and will send the reports to your email.</li>\n "
+"<li>It's essential that the tablet has access to a wifi network in order to  "
+"connect and send the reports. If you don't know how to connect your tablet  "
+"to the Internet, we will help you. Don't hesitate to contact us  "
+"by email or phone.</li>\n "
+"<li>Login to your email, and you will see that you received a new mail from Agroguía.</p>\n "
+"<img src=\"/assets/images/content/es/pc/receiver-report/report-mail.png\">\n "
+"<li>After opening the mail, you will have to follow  "
+"the links to view the reports. There will be a link for each report that has been sent,  "
+"where it indicates the date and the title that you have given to the work.\n "
+"<img src=\"/assets/images/content/es/pc/receiver-report/open-mail.png\">\n "
+"</ul>\n"
+"   "
+
+#: templates/es/pc/visualizar-informes.html:4
+msgid ""
+"<p>Para visualizar los informes de los trabajos realizados, sólo tendrás que "
+"ir a tu buzón de correo electrónico y hacer click en los enlaces a los "
+"diferentes informes.</p>\n"
+"<img src=\"/assets/images/content/es/pc/receiver-report/informe.png\">\n"
+"\n"
+"<p>Se abrirá una página en la que podrás ver, entre otros datos:</p>\n"
+"<ul>\n"
+"<li>Fecha y hora de comienzo y fin del trabajo</li>\n"
+"<li>Ubicación de la parcela: población, número de parcela, polígono,...</"
+"li>\n"
+"<li>Duración del trabajo</li>\n"
+"<li>Aréa tratada y remontada</li>\n"
+"<li>El área de la parcela, si se midió durante el trabajo</li>\n"
+"<li>Distancias medidas durante el trabajo</li>\n"
+"</ul>\n"
+msgstr ""
+    "<p>To view the reports of the works completed, all you have  "
+"to do is going to your inbox and click on the links of the "
+"various reports.</p>\n "
+"<img src=\"/assets/images/content/es/pc/receiver-report/informe.png\">\n "
+"\n "
+"<p>This will open a page where you can see, among others:</p>\n "
+"<ul>\n "
+"<li>Start/end date and time of work</li>\n "
+"<li>Location of the area: population, area code, polygon,...</ "
+"li>\n"
+"<li>Hours of work</li>\n "
+"<li>Treated and comeback area</li>\n "
+"<li>Size of the area, given that it was being measured during work</li>\n "
+"<li>Distances measured during work</li>\n "
+"</ul>\n"
+
+#: web/models.py:8
+msgid "name"
+msgstr "name"
+
+#: web/models.py:9
+msgid "email"
+msgstr "emaol"
+
+#: web/models.py:10
+msgid "teléfono"
+msgstr "telephone"
+
+#: web/urls.py:18
+msgid "^agroguia-pc"
+msgstr ""
+
+#: web/urls.py:19
+msgid "^video"
+msgstr ""
+
+#: web/urls.py:20
+msgid "^comprar-guiado-gps"
+msgstr ""
+
+#: web/urls.py:21 web/urls.py:27
+msgid "^nosotros"
+msgstr ""
+
+#: web/urls.py:28
+msgid "^comprar-agroguia"
+msgstr ""
+
+#: web/urls.py:28 web/urls.py:38 web/urls.py:39
+msgid "/comprar-guiado-gps"
+msgstr ""
+
+#: web/urls.py:30
+msgid "/es/gps-agricola-videos"
+msgstr ""
+
+#: web/urls.py:31
+msgid "/es/gps-agricola-caracteristicas"
+msgstr ""
+
+#: web/urls.py:32
+msgid "/es/utilidades-gps-agricultura"
+msgstr ""
+
+#: web/urls.py:33
+msgid "/es/parcelas-agroguia-sigpac"
+msgstr ""
+
+#: web/urls.py:34
+msgid "/es/medir-parcelas-gps"
+msgstr ""
+
+#: web/urls.py:35
+msgid "/es/guiado-agricultura-simple"
+msgstr ""
+
+#: web/urls.py:36
+msgid "/es/gps-herbicida-abono"
+msgstr ""
+
+#: web/urls.py:37
+msgid "/es/gps-agricola-sencillo-usar"
+msgstr ""
+
+#: web/views.py:19
+msgid "tienes que rellenar el email o el teléfono"
+msgstr "You need to fill the email or telephone"
