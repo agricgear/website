@@ -14,8 +14,21 @@ def production():
   env.password = BOT_PASS
   env.deploy_folder = '/home/fabric/agroguia-website'
 
+def new_production():
+  env.hosts = ['178.79.144.149']
+  env.user = 'fabric'
+  env.password = BOT_PASS
+  env.deploy_folder = '/home/fabric/agroguia-website'
+
+
 def copy_database():
   get("%(deploy_folder)s/dev.sqlite" % env)
+
+def install():
+  run("rm -rf %(deploy_folder)s" % env)
+  run("git clone git://github.com/agricgear/website.git %(deploy_folder)s" % env)
+  run("cd %(deploy_folder)s && virtualenv env" % env)
+  run("cd %(deploy_folder)s && ./env/bin/pip install -r requirements.txt" % env)
 
 def deploy_web():
   run("cd %(deploy_folder)s && ./deploy/stop.sh" % env)
