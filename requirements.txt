@@ -1,3 +1,5 @@
-django
-south
-gunicorn
+Django==1.4.1
+South==0.7.6
+-e git://github.com/danawoodman/django-flatpages-plus.git@7d117a9b95c647b146e47605941383ef649dcd4f#egg=django_flatpages_plus-dev
+django-taggit==0.9.3
+gunicorn==0.14.6
