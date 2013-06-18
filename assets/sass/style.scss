@@ -285,6 +285,51 @@ $experimental-support-for-khtml : true !default;
   }
 }
 
+/**
+ * Blog block
+ */
+.blog {
+
+  @extend .layout-2-cols;
+	padding: 30px 0 22px 0;
+  
+  p{
+      margin: 22px 30px 0;
+      line-height: 19px;
+      font-size:15px;
+      color: #59BC00;   
+  }  
+  .item {
+    text-align: left;
+    padding:15px 0 22px 0;
+    
+	
+	  h3 {
+      margin: 0px 30px 11px 30px;
+      @extend .font-proxima-nova-bold;
+      line-height: 26px;
+      font-size: 25px;      
+      letter-spacing: -0.04em;
+      color: #333333;
+      
+    }
+
+    p {
+      margin: 0 30px 11px;
+      line-height: 19px;      
+      font-size:15px;
+      color: #666;
+      &.post_metadata{
+        a{
+          text-decoration: underline !important;
+          
+        }
+      }
+    }
+  }
+}
+
+
 
 /**
  * What's included block
