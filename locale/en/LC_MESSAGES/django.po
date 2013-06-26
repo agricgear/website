@@ -42,6 +42,10 @@ msgstr "Agricultural guidance system with GPS, your GPS for the tractor"
 msgid "¿Tienes preguntas? Llámanos"
 msgstr "Do you have questions? Call us"
 
+#: templates/_call_us.html:6
+msgid "634 562 346"
+msgstr "+34 634 562 346"
+
 #: templates/_call_us.html:6 templates/_header.html:10 templates/buy.html:25
 msgid "347 320 7715"
 msgstr ""
@@ -931,7 +935,7 @@ msgstr "name"
 
 #: web/models.py:9
 msgid "email"
-msgstr "emaol"
+msgstr "email"
 
 #: web/models.py:10
 msgid "teléfono"
