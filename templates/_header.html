@@ -7,7 +7,7 @@
       <ul>
         <li class="nav-item gps-guided {% if section == 'home' %}active {%endif %}"><a href="/"  onclick="_gaq.push(['_trackEvent', 'header', 'home-gps', '']);"><span> {% trans "Guiado GPS" %}</span></a></li>
         <li class="nav-item online-works {% if section == 'online' %}active {%endif %}"><a href="{% url home-pc %}" onclick="_gaq.push(['_trackEvent', 'header', 'home-pc', '']);"><span> {% trans "Trabajos on-line" %}</span></a></li>
-        <li class="nav-item climate-emails"><a href="{% url home-pc %}" onclick="_gaq.push(['_trackEvent', 'header', 'climate-emails', '']);"><span> {% trans "Agroclima" %}</span></a></li>
+        <li class="nav-item climate-emails {% if section == 'agroclima' %}active {%endif %}"><a href="{% url agro-clima %}" onclick="_gaq.push(['_trackEvent', 'header', 'climate-emails', '']);"><span> {% trans "Agroclima" %}</span></a></li>
         <!--TODO: ADD CORRECT LINK -->
         <li class="buy-item"><a href="{% url home-buy %}" onclick="_gaq.push(['_trackEvent', 'header', 'buy', '']);" class="button"> {% trans "Información" %}</a> <span class="phone"> {% trans "634 562 346" %}</span>
         </li>
