@@ -255,7 +255,7 @@ header nav li.nav-item a span { display: inline-block; margin-top: 103px; }
 /* line 44, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.buy-item { padding: 50px 0 0 20px; height: 110px; }
 /* line 47, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
-header nav li.buy-item .phone { display: inline-block; font-family: 'proxima-nova', sans-serif; font-size: 13px; font-weight: 700; color: #499E00; background: transparent url(../images/style/icon-phonemini.png) 0 50% no-repeat; padding-left: 12px; margin-top: 12px; }
+header nav li.buy-item .phone { display: inline-block; font-family: 'proxima-nova', sans-serif; font-size: 13px; font-weight: 700; color: #499E00; background: transparent url(../images/style/icon-phonemini.png) 0 50% no-repeat; padding-left: 28px; margin-top: 12px; }
 /* line 59, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
 header nav li.gps-guided a { background: transparent url(../images/style/icon-gpsguided.png) 50% 50% no-repeat; }
 /* line 60, /Users/javi/wrk/agricgear/website/assets/sass/_page-commons.scss */
@@ -512,50 +512,50 @@ footer .social-buttons li { float: left; margin: 0 0 0 7px; }
 /* line 453, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form p { font-size: 15px; color: #666666; line-height: 20px; margin: 0 0 34px 0; }
 /* line 460, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
-.buy-form .phone { font-size: 47px; line-height: 85px; color: #59BC00; border-bottom: 1px solid #e6e6e6; margin: 0 0 16px 0; }
-/* line 468, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.buy-form .phone { background: transparent url(../images/style/logo-whatsapp.png) 0 50% no-repeat; font-size: 47px; line-height: 85px; color: #59BC00; border-bottom: 1px solid #e6e6e6; padding-left: 41px; margin: 0 0 16px 0; }
+/* line 470, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .email { font-size: 37px; line-height: 35px; color: #59BC00; }
-/* line 474, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 476, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .schedule { color: #cccccc; margin: 60px 0 0 0; }
-/* line 479, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 481, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field { margin: 0 0 14px 0; position: relative; display: inline-block; }
-/* line 484, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 486, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field label { color: #cccccc; font-size: 15px; width: 85px; display: block; line-height: 27px; position: absolute; left: 6px; top: 10px; border-right: 1px solid #e5e5e5; }
-/* line 495, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 497, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field input { border: 1px solid #cccccc; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; outline: none; font-size: 15px; padding: 12px 10px 12px 100px; color: #999999; font-family: Helvetica, sans-serif; }
-/* line 503, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
-.buy-form .field input:focus { border: 1px solid #999999; }
 /* line 505, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.buy-form .field input:focus { border: 1px solid #999999; }
+/* line 507, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .buy-form .field input.submit { width: 125px; }
 
 /** Compare packs block */
-/* line 517, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 519, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs { margin: 0 0 25px 0; }
-/* line 522, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 524, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs h2 { font-size: 41px; font-weight: 700; letter-spacing: -0.04em; color: #333333; margin: 0 0 30px 0; }
-/* line 530, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 532, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .intro, .compare-packs .pack { float: left; width: 33%; }
-/* line 536, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 538, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .intro p { padding-right: 45px; }
-/* line 539, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 541, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack { margin-top: -35px; text-align: center; background: url(../images/style/compare-packs-v-divider.png) 100% 0 no-repeat; }
-/* line 544, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 546, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack a { text-decoration: underline; }
-/* line 547, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 549, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack ul { list-style-type: none; }
-/* line 550, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 552, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack ul li { font-size: 15px; color: #cccccc; background: url(../images/style/compare-packs-h-divider.png) 0 100% no-repeat; line-height: 60px; margin: 0; }
-/* line 556, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 558, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack ul li:first-child { line-height: 23px; padding: 35px 0 18px 0; }
-/* line 560, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 562, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack ul li:last-child { line-height: 20px; background: none; padding: 24px 0 24px 0; }
-/* line 568, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
-.compare-packs .pack:last-child { background: none; }
 /* line 570, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+.compare-packs .pack:last-child { background: none; }
+/* line 572, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack:last-child li { background-position: 100% 100%; }
-/* line 573, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 575, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack .included { background: url(../images/style/icon-check.png) 100% 50% no-repeat; padding-right: 23px; color: #666666; }
-/* line 578, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 580, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack strong { display: block; font-size: 19px; font-weight: 700; letter-spacing: -0.1em; color: #333333; }
-/* line 585, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
+/* line 587, /Users/javi/wrk/agricgear/website/assets/sass/style.scss */
 .compare-packs .pack em { color: #999999; display: inline-block; background: url(../images/style/compare-packs-marker.png) 50% 100% no-repeat; padding: 0 0 16px 0; }

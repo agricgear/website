@@ -459,10 +459,12 @@ $experimental-support-for-khtml : true !default;
 
   .phone {
     @extend .font-proxima-nova-bold;
+    background: transparent url(../images/style/logo-whatsapp.png) 0 50% no-repeat;
     font-size: 47px;
     line-height: 85px;
     color: #59BC00;
     border-bottom: 1px solid #e6e6e6;
+    padding-left: 41px;
     margin: 0 0 16px 0;
   }
   .email {
