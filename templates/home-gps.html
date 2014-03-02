@@ -1,6 +1,7 @@
 {% extends "_base.html" %}
 {% load i18n %}
 {% load flatpages %}
+{% load cache %}
 
 
 {% block content %}
@@ -115,7 +116,9 @@
 {% include "_call_us.html" %}
 
 <div class="wrapper">
+{% cache 86400 blog_posts %}
 {% include "_blog.html" %}
+{% endcache %}
 </div>
 
 {% endblock %}
