@@ -9,7 +9,7 @@ import os
 from os.path import basename, dirname
 
 def production():
-  env.hosts = ['track.agroguia.es:2223']
+  env.hosts = ['agroguia.es']
   env.user = 'fabric'
   env.password = BOT_PASS
   env.deploy_folder = '/home/fabric/agroguia-website'
