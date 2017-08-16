@@ -17,7 +17,7 @@ pip install -r requirements.txt
 create default secret file with passwords
 
 ```
-echo "MAIL_PASS = 'test@localhost.lan'" > app/secret.py
+echo "MAIL_PASS = 'YOURPASS'" > app/secret.py
 ```
 
 create the database
@@ -34,7 +34,16 @@ python manage.py runserver
 
 ## production commands
 
-install on production (assumes you have python/pip/virtualenv/git)
+In order to run these commands you need to create a secret.py file containing ssh password for
+`fabric` user, like.
+
+```
+echo "BOT_PASS = 'YOURPASS'" > secret.py
+```
+
+** commands** 
+
+Install on production (assumes you have python/pip/virtualenv/git)
 
 ```
 fab production install
