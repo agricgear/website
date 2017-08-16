@@ -41,7 +41,7 @@ In order to run these commands you need to create a secret.py file containing ss
 echo "BOT_PASS = 'YOURPASS'" > secret.py
 ```
 
-** commands** 
+**commands** 
 
 Install on production (assumes you have python/pip/virtualenv/git)
 
